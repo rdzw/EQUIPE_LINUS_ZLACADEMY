@@ -55,8 +55,17 @@ while True:
         case 3:
             print("\nOpção 3 selecionada")
             print(f"Vetor completo: {vetor}")
-        case 4:
+        case 4 if len(vetor) > 0:
             print("\nOpção 4 selecionada")
+
+            maior = 0
+            menor = 0
+            print(f"Os Numeros encontrados: {vetor}")
+            for i in range(1,n):
+                maior = max(vetor)
+                menor = min(vetor)
+            print(f"O maior é: {maior}")
+            print(f"O menor é: {menor}")
         case 5:
             print("\nOpção 5 selecionada")
             soma_total = sum(vetor)
@@ -69,5 +78,5 @@ while True:
             if len(vetor) > 0:
                 print("Opção inválida, tente novamente.")
             else:
-                print("Não é possível remover um elemento de um vetor vazio.")
+                print("Não é possível acessar essa opção em um vetor vazio.")
             continue
