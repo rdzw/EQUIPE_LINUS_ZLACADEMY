@@ -63,6 +63,7 @@ while True:
             print(f'A soma de todos os numeros do vetor é: {soma_total}')
         case 6:
             print("\nOpção 6 selecionada")
+            print("Saindo do programa....")
             break
         case _:
             if len(vetor) > 0:
