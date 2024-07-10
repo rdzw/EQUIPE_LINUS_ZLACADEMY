@@ -44,6 +44,8 @@ while True:
             print("\nOpção 4 selecionada")
         case 5:
             print("\nOpção 5 selecionada")
+            soma_total = sum(vetor)
+            print(f'A soma de todos os numeros do vetor é: {soma_total}')
         case 6:
             print("\nOpção 6 selecionada")
             break
