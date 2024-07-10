@@ -32,6 +32,10 @@ while True:
     match menu:
         case 1:
             print("\nOpção 1 selecionada")
+
+            n = int(input("Insira o número que será adicionado ao vetor: "))
+            vetor.append(n)
+            print(f"Vetor: {vetor}")
         case 2:
             print("\nOpção 2 selecionada")
         case 3:
