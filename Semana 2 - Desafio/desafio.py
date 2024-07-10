@@ -36,8 +36,22 @@ while True:
             n = int(input("Insira o número que será adicionado ao vetor: "))
             vetor.append(n)
             print(f"Vetor: {vetor}")
-        case 2:
+        case 2 if len(vetor) > 0:
             print("\nOpção 2 selecionada")
+
+            print(f"Vetor: {vetor}")
+            print("Considere que o primeiro número, da esquerda para a direita, é a posição 0 e assim por diante.")
+
+            x = int(input("\nSelecione a posição do vetor que deseja remover: "))
+            print("---------------------------------------------------------------")
+
+            print(f"Posição {x} selecionada.")
+
+            if 0 <= x < len(vetor):
+                vetor.pop(x)
+                print(f"Vetor após remoção do elemento: {vetor}")
+            else:
+                print(f"A posição {x} não existe no vetor: {vetor}")
         case 3:
             print("\nOpção 3 selecionada")
             print(f"Vetor completo: {vetor}")
@@ -51,5 +65,8 @@ while True:
             print("\nOpção 6 selecionada")
             break
         case _:
-            print("Opção inválida, tente novamente.")
+            if len(vetor) > 0:
+                print("Opção inválida, tente novamente.")
+            else:
+                print("Não é possível remover um elemento de um vetor vazio.")
             continue
