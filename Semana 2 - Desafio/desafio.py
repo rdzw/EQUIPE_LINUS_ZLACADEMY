@@ -40,6 +40,7 @@ while True:
             print("\nOpção 2 selecionada")
         case 3:
             print("\nOpção 3 selecionada")
+            print(f"Vetor completo: {vetor}")
         case 4:
             print("\nOpção 4 selecionada")
         case 5:
