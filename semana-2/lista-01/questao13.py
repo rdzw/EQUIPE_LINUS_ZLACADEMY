@@ -27,10 +27,3 @@ while(True):
     
     valor_total = valor_trans + valor_prazo
     print(f"O valor total das compras efetuadas é R$ {valor_total}")
-
-
-
-
-
-
-
