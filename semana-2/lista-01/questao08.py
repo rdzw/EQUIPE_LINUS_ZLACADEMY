@@ -7,7 +7,7 @@ for  i in range(100):
     n = int(input("Digite os numeros: "))
 
     if n % 2 == 0:
-       resultado_par =  resultado_par + n
+        resultado_par =  resultado_par + n
     elif n % 2 == 1:
         resultado_impar = resultado_impar + n
     else:
