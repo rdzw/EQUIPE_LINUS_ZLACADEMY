@@ -13,6 +13,11 @@ n = int(input("Digite um numero: "))
 for i in range(1, n+1):
     for j in range(1, i+1):
         print(j, end=' ')
+<<<<<<< HEAD
            
     print()
     
+=======
+        
+    print()
+>>>>>>> 7629e5bac1093af6232c6b5991df3dada30b22ba
