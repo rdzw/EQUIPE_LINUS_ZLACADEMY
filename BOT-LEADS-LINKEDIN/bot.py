@@ -13,7 +13,7 @@ def main():
 
     bot = WebBot()
     bot.headless = False
-    bot.browse("https://www.botcity.dev")
+    bot.browse("https://www.linkedin.com/login/pt")
     bot.wait(3000)
     bot.stop_browser()
 
