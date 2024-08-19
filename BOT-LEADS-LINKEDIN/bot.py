@@ -14,8 +14,8 @@ def main():
 
     bot = WebBot()
     bot.headless = False
-    bot.driver_path = "<path to your WebDriver binary>"
-    bot.browse("https://www.botcity.dev")
+    bot.driver_path = 'resources\chromedriver.exe'
+    bot.browse("https://www.linkedin.com/login/pt")
 
     bot.wait(3000)
     bot.stop_browser()
