@@ -40,8 +40,7 @@ def main():
     # Aguardar até que o botão de login esteja disponível
     while True:
         try:
-            login_button = bot.driver.find_element(By.CSS_SELECTOR, "#organic-div > form > div.login__form_action_container > button")
-            login_button.click()
+            bot.driver.find_element("#organic-div > form > div.login__form_action_container > button", By.CSS_SELECTOR).click()
             break
         except Exception as e:
             print("Botão de login não encontrado, tentando novamente...")
@@ -50,8 +49,7 @@ def main():
     # Aguardar até que a caixa de pesquisa esteja disponível
     while True:
         try:
-            search_box = bot.driver.find_element(By.CSS_SELECTOR, "#global-nav-typeahead > input")
-            search_box.click()
+            bot.find_element("#global-nav-typeahead > input", By.CSS_SELECTOR).click()
             bot.paste("desenvolvedor full stack")
             bot.enter()
             break
