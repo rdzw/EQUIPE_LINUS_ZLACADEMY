@@ -31,7 +31,7 @@ def main():
     while True:
         try:
             bot.find_element( "password", By.ID).click()
-            bot.paste("alone18jA")
+            bot.paste("#S0l1t@r10.23")
             break
         except Exception as e:
             print("Campo de senha não encontrado, tentando novamente...")
