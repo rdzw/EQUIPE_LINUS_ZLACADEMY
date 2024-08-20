@@ -1,9 +1,8 @@
+from time import sleep
 from botcity.web import WebBot, Browser, By
 from botcity.maestro import *
 
-
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
-
 
 def main():
     maestro = BotMaestroSDK.from_sys_args()
@@ -16,13 +15,55 @@ def main():
     bot.headless = False
     bot.driver_path = 'resources\chromedriver.exe'
     bot.browse("https://www.linkedin.com/login/pt")
+    bot.driver.maximize_window()
 
-    bot.wait(3000)
+    # Aguardar até que o campo de usuário esteja disponível
+    while True:
+        try:
+            bot.find_element("username", By.ID).click()
+            bot.paste("menezesandreina18@gmail.com")
+            break
+        except Exception as e:
+            print("Campo de usuário não encontrado, tentando novamente...")
+            sleep(1)
+
+    # Aguardar até que o campo de senha esteja disponível
+    while True:
+        try:
+            bot.find_element( "password", By.ID).click()
+            bot.paste("alone18jA")
+            break
+        except Exception as e:
+            print("Campo de senha não encontrado, tentando novamente...")
+            sleep(1)
+
+    # Aguardar até que o botão de login esteja disponível
+    while True:
+        try:
+            login_button = bot.driver.find_element(By.CSS_SELECTOR, "#organic-div > form > div.login__form_action_container > button")
+            login_button.click()
+            break
+        except Exception as e:
+            print("Botão de login não encontrado, tentando novamente...")
+            sleep(1)
+
+    # Aguardar até que a caixa de pesquisa esteja disponível
+    while True:
+        try:
+            search_box = bot.driver.find_element(By.CSS_SELECTOR, "#global-nav-typeahead > input")
+            search_box.click()
+            bot.paste("desenvolvedor full stack")
+            bot.enter()
+            break
+        except Exception as e:
+            print("Caixa de pesquisa não encontrada, tentando novamente...")
+            sleep(1)
+
+    bot.wait(5000)  # Aguarda brevemente antes de fechar o navegador
     bot.stop_browser()
 
 def not_found(label):
     print(f"Element not found: {label}")
-
 
 if __name__ == '__main__':
     main()
