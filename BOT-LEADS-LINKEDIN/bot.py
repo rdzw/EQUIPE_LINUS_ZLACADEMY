@@ -1,12 +1,11 @@
-from time import sleep
-from botcity.web import WebBot, Browser, By
+from botcity.web import WebBot, By
 from botcity.maestro import *
-
 from dotenv import load_dotenv
+from time import sleep
 import os
 
+# Carrega as variáveis de ambiente
 load_dotenv()
-
 EMAIL = os.getenv('EMAIL')
 SENHA = os.getenv('PASSWORD')
 
@@ -19,6 +18,7 @@ def main():
     print(f"Task ID is: {execution.task_id}")
     print(f"Task Parameters are: {execution.parameters}")
 
+    # Configurar e iniciar o navegador
     bot = WebBot()
     bot.headless = False
     bot.driver_path = 'resources\chromedriver.exe'
@@ -65,11 +65,8 @@ def main():
             print("Caixa de pesquisa não encontrada, tentando novamente...")
             sleep(1)
 
-    bot.wait(5000)  # Aguarda brevemente antes de fechar o navegador
+    bot.wait(5000)
     bot.stop_browser()
-
-def not_found(label):
-    print(f"Element not found: {label}")
 
 if __name__ == '__main__':
     main()
