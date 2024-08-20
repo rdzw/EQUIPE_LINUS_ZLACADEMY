@@ -2,6 +2,14 @@ from time import sleep
 from botcity.web import WebBot, Browser, By
 from botcity.maestro import *
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+EMAIL = os.getenv('EMAIL')
+SENHA = os.getenv('PASSWORD')
+
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
 def main():
@@ -21,7 +29,7 @@ def main():
     while True:
         try:
             bot.find_element("username", By.ID).click()
-            bot.paste("menezesandreina18@gmail.com")
+            bot.paste(EMAIL)
             break
         except Exception as e:
             print("Campo de usuário não encontrado, tentando novamente...")
@@ -31,7 +39,7 @@ def main():
     while True:
         try:
             bot.find_element( "password", By.ID).click()
-            bot.paste("#S0l1t@r10.23")
+            bot.paste(SENHA)
             break
         except Exception as e:
             print("Campo de senha não encontrado, tentando novamente...")
@@ -40,7 +48,7 @@ def main():
     # Aguardar até que o botão de login esteja disponível
     while True:
         try:
-            bot.driver.find_element("#organic-div > form > div.login__form_action_container > button", By.CSS_SELECTOR).click()
+            bot.find_element("#organic-div > form > div.login__form_action_container > button", By.CSS_SELECTOR).click()
             break
         except Exception as e:
             print("Botão de login não encontrado, tentando novamente...")
