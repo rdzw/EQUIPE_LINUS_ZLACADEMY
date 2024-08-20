@@ -80,7 +80,7 @@ def main():
             print("Filtro não encontrado, tentando novamente...")
             sleep(1)
     
-    link_perfil = '/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div/div[2]/div/ul/li[{}]/div/div/div/div[2]/div[1]/div[1]/div/span[1]/span/a/span/span[1]'
+    link_perfil = '/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div/div[3]/div/ul/li[{}]/div/div/div/div[2]/div[1]/div[1]/div/span[1]/span/a/span/span[1]'
     max_result = 5
     sleep(5)
 
