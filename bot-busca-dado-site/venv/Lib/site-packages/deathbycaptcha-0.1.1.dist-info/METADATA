@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: deathbycaptcha
+Version: 0.1.1
+Summary: A library aims to support deathbycaptcha.
+Home-page: https://github.com/hyan15/python-deathbycaptcha
+Author: Neal Wong
+Author-email: qwang16@olivetuniversity.edu
+License: MIT
+Keywords: deathbycaptcha
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+Requires-Dist: simplejson
+
+UNKNOWN
+
+
