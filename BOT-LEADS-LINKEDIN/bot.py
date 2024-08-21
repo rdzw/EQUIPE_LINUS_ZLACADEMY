@@ -74,7 +74,7 @@ def main():
     #Adicionar filtro
     while True:
         try:
-            bot.find_element("#search-reusables__filters-bar > ul > li:nth-child(4) > button", By.CSS_SELECTOR).click()
+            bot.find_element("#search-reusables__filters-bar > ul > li:nth-child(3) > button", By.CSS_SELECTOR).click()
             break
         except Exception as e:
             print("Filtro não encontrado, tentando novamente...")
@@ -92,7 +92,6 @@ def main():
             bot.back()
         except Exception as e:
             print(f"Erro ao clicar no resultado {i}: {e}") 
-
 
     bot.wait(5000)
     bot.stop_browser()
