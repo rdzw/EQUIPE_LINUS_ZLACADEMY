@@ -28,13 +28,10 @@ def fetch_iframe_content(url):
     return soup
 
 def convert_to_numeric(price_str):
-    # Remove o cifrão
-    price_str = price_str.replace('R$', '')
+    # Remove o cifrão e pontos
+    price_str = price_str.replace('R$', '').replace('.', '')
 
-    # Remover pontos
-    price_str = price_str.replace('.', '')
-
-    # Troca a virgula por ponto
+    # Troca a vírgula por ponto
     price_str = price_str.replace(',', '.')
     
     # Debug: exibe o preço após limpeza
@@ -57,7 +54,7 @@ def update_excel(price, name):
     
     # Adicionar nova linha ao DataFrame
     today = datetime.now().strftime("%Y-%m-%d")
-    new_data = pd.DataFrame({"Nome": [], "Data": [today], "Preço": [price]})
+    new_data = pd.DataFrame({"Nome": [name], "Data": [today], "Preço": [price]})
     df = pd.concat([df, new_data], ignore_index=True)
     
     # Salvar o DataFrame atualizado no arquivo Excel
@@ -69,12 +66,12 @@ def update_excel(price, name):
     
     # Converter coluna "Preço" para numérico
     df['Preço'] = pd.to_numeric(df['Preço'], errors='coerce')
-    
+
     # Verificar se há dados numéricos para plotar
     if df['Preço'].notna().any():
+        plt.figure(figsize=(10, 5))
         df.plot(y='Preço', kind='line', marker='o')
         plt.title('Variação de Preço ao Longo do Tempo')
-        plt.xlabel('Nome')
         plt.xlabel('Data')
         plt.ylabel('Preço')
         plt.grid(True)
@@ -95,16 +92,17 @@ def main():
     price = soup.find(class_="a-offscreen")
 
     if price and name:
-        price_str = f"{price.text.strip()}"
+        price_str = price.text.strip()
+        name_str = name.text.strip()
         print(f"Preço extraído: {price_str}")  # Debug: exibe o preço extraído
         price = convert_to_numeric(price_str)
         if price is not None:
             print(f"Preço convertido: {price}")
-            update_excel(price, name)
+            update_excel(price, name_str)
         else:
             print("Preço em formato inválido.")
     else:
-        print("Preço não encontrado.")
+        print("Preço ou nome do produto não encontrado.")
 
 if __name__ == '__main__':
     main()
