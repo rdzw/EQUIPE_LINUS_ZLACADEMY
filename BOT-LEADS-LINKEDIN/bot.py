@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
 import re
-
 import os
 import pandas as pd
 
@@ -15,8 +14,10 @@ SENHA = os.getenv('PASSWORD')
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
+#Atualiza a planilha Excel com as informações do perfil extraído
 def atualizar_planilha(nome, cargo, empresa, tempo, file_path='Dados-leads.xlsx'):
-    
+
+    # Expressões regulares para limpar dados
     regex_1 = r'^[^·]+'
     regex_2 = r'·\s*(.*)'
 
@@ -30,7 +31,7 @@ def atualizar_planilha(nome, cargo, empresa, tempo, file_path='Dados-leads.xlsx'
 
     # Ler o arquivo Excel
     df = pd.read_excel(file_path, engine='openpyxl')
-    
+
     # Adicionar o nome extraído à próxima linha disponível no DataFrame
     nova_linha = len(df)
     df.at[nova_linha, 'NOME'] = nome
@@ -41,50 +42,30 @@ def atualizar_planilha(nome, cargo, empresa, tempo, file_path='Dados-leads.xlsx'
     # Salvar as alterações na planilha Excel
     df.to_excel(file_path, index=False, engine='openpyxl', na_rep='')
 
-def main():
-    maestro = BotMaestroSDK.from_sys_args()
-    execution = maestro.get_execution()
-
-    print(f"Task ID is: {execution.task_id}")
-    print(f"Task Parameters are: {execution.parameters}")
-
-    # Configurar e iniciar o navegador
+#Inicializa o navegador e abre a página de login do LinkedIn
+def iniciar_navegador():
     bot = WebBot()
     bot.headless = False
     bot.driver_path = ChromeDriverManager().install()
     bot.browse("https://www.linkedin.com/login/pt")
     bot.driver.maximize_window()
+    return bot
 
-    # Aguardar até que o campo de usuário esteja disponível
+def realizar_login(bot=WebBot):
     while True:
         try:
             bot.find_element("username", By.ID).click()
             bot.paste(EMAIL)
-            break
-        except Exception as e:
-            print("Campo de usuário não encontrado, tentando novamente...")
-            sleep(1)
-
-    # Aguardar até que o campo de senha esteja disponível
-    while True:
-        try:
-            bot.find_element( "password", By.ID).click()
+            bot.find_element("password", By.ID).click()
             bot.paste(SENHA)
-            break
-        except Exception as e:
-            print("Campo de senha não encontrado, tentando novamente...")
-            sleep(1)
-
-    # Aguardar até que o botão de login esteja disponível
-    while True:
-        try:
             bot.find_element("#organic-div > form > div.login__form_action_container > button", By.CSS_SELECTOR).click()
             break
         except Exception as e:
-            print("Botão de login não encontrado, tentando novamente...")
+            print("Erro no login, tentando novamente...")
             sleep(1)
 
-    # Aguardar até que a caixa de pesquisa esteja disponível
+#Busca perfis de LinkedIn usando o termo de busca fornecido
+def buscar_perfis(bot=WebBot):
     while True:
         try:
             bot.find_element("#global-nav-typeahead > input", By.CSS_SELECTOR).click()
@@ -92,30 +73,28 @@ def main():
             bot.enter()
             break
         except Exception as e:
-            print("Caixa de pesquisa não encontrada, tentando novamente...")
+            print(F"Erro ao buscar perfis, tentando novamente: {e}")
             sleep(1)
 
-    #Adicionar filtro Pessoas
+    sleep(5)
+
     while True:
         try:
             bot.find_element("//button[contains(., 'Pessoas')]", By.XPATH).click()
             break
         except Exception as e:
-            print("Filtro não encontrado, tentando novamente...")
+            print("Erro ao aplicar filtro, tentando novamente...")
             sleep(1)
-    
+
+# Extrai dados dos perfis de LinkedIn e atualiza a planilha com essas informações
+def extrair_dados_e_atualizar_planilha(bot=WebBot, max_result=2):
     link_perfil = '/html/body/div[5]/div[3]/div[2]/div/div[1]/main/div/div/div[2]/div/ul/li[{}]/div/div/div/div[2]/div[1]/div[1]/div/span[1]/span/a/span/span[1]'
-    max_result = 2
-    sleep(2)
-
-
-    for i in range(1, max_result+1):
+    sleep(5)
+    
+    for i in range(1, max_result + 1):
         try:
-            sleep(2)
-            #nome
             bot.find_element(link_perfil.format(i), By.XPATH).click()
-
-            sleep(2)
+            sleep(5)
             
             nome = bot.find_element('/html/body/div[5]/div[3]/div/div/div[2]/div/div/main/section[1]/div[2]/div[2]/div[1]/div[1]/span[1]/a/h1', By.XPATH).get_attribute('innerHTML')
             cargo = bot.find_element('//*[@id="profile-content"]/div/div[2]/div/div/main/section[5]/div[3]/ul/li[1]/div/div[2]/div[1]/div/div/div/div/div/span[1]', By.XPATH).get_attribute('innerText')
@@ -123,12 +102,18 @@ def main():
             tempo = bot.find_element('//*[@id="profile-content"]/div/div[2]/div/div/main/section[5]/div[3]/ul/li[1]/div/div[2]/div[1]/div/span[2]/span[1]', By.XPATH).get_attribute('innerText')
                
             atualizar_planilha(nome, cargo, empresa, tempo)
-
             bot.back()
         except Exception as e:
             print(f"Erro ao clicar no resultado {i}: {e}")
 
-    bot.wait(5000)
+def main():
+    bot = iniciar_navegador()
+
+    realizar_login(bot)
+    buscar_perfis(bot)
+    extrair_dados_e_atualizar_planilha(bot, max_result=2)
+    
+    bot.wait(300)
     bot.stop_browser()
 
 if __name__ == '__main__':
