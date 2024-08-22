@@ -3,6 +3,7 @@ from seleniumbase import Driver
 from time import sleep
 import pandas as pd
 from dotenv import load_dotenv
+from webdriver_manager.chrome import ChromeDriverManager
 import os
 
 # Carrega as variáveis de ambiente
@@ -35,7 +36,7 @@ def initialize_browser():
     driver = Driver(uc=True, headless=False)
     bot = WebBot()
     bot.headless = False
-    bot.driver_path = 'resources/chromedriver.exe'
+    bot.driver_path = ChromeDriverManager().install()
     sleep(3)
     return driver, bot
 
@@ -65,7 +66,6 @@ def login_to_website(driver: Driver):
     while True:
         try:
             password_field = driver.find_element(By.ID, 'Password')
-            print(SENHA)
             password_field.send_keys(SENHA)
             break
         except Exception as e:
