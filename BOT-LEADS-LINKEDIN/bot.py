@@ -3,6 +3,7 @@ from botcity.maestro import *
 from dotenv import load_dotenv
 from time import sleep
 from webdriver_manager.chrome import ChromeDriverManager
+import re
 
 import os
 import pandas as pd
@@ -14,13 +15,28 @@ SENHA = os.getenv('PASSWORD')
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
-def atualizar_planilha(nome, file_path='Dados-leads.xlsx'):
+def atualizar_planilha(nome, cargo, empresa, tempo, file_path='Dados-leads.xlsx'):
+    
+    regex_1 = r'^[^·]+'
+    regex_2 = r'·\s*(.*)'
+
+    empresa_result = re.search(regex_1, empresa)
+    tempo_result = re.search(regex_2, tempo)
+
+    if empresa_result:
+        empresa = empresa_result.group().strip()
+    if tempo_result:
+        tempo = tempo_result.group(1).strip()
+
     # Ler o arquivo Excel
     df = pd.read_excel(file_path, engine='openpyxl')
     
     # Adicionar o nome extraído à próxima linha disponível no DataFrame
     nova_linha = len(df)
     df.at[nova_linha, 'NOME'] = nome
+    df.at[nova_linha, 'CARGO'] = cargo
+    df.at[nova_linha, 'EMPRESA'] = empresa
+    df.at[nova_linha, 'TEMPO'] = tempo
     
     # Salvar as alterações na planilha Excel
     df.to_excel(file_path, index=False, engine='openpyxl', na_rep='')
@@ -98,11 +114,16 @@ def main():
             sleep(2)
             #nome
             bot.find_element(link_perfil.format(i), By.XPATH).click()
-            nome = bot.find_element('/html/body/div[5]/div[3]/div/div/div[2]/div/div/main/section[1]/div[2]/div[2]/div[1]/div[1]/span[1]/a/h1', By.XPATH).get_attribute('innerHTML')
-           
-            atualizar_planilha(nome)
 
-            sleep(5)
+            sleep(2)
+            
+            nome = bot.find_element('/html/body/div[5]/div[3]/div/div/div[2]/div/div/main/section[1]/div[2]/div[2]/div[1]/div[1]/span[1]/a/h1', By.XPATH).get_attribute('innerHTML')
+            cargo = bot.find_element('//*[@id="profile-content"]/div/div[2]/div/div/main/section[5]/div[3]/ul/li[1]/div/div[2]/div[1]/div/div/div/div/div/span[1]', By.XPATH).get_attribute('innerText')
+            empresa = bot.find_element('//*[@id="profile-content"]/div/div[2]/div/div/main/section[5]/div[3]/ul/li[1]/div/div[2]/div[1]/div/span[1]/span[1]', By.XPATH).get_attribute('innerText')
+            tempo = bot.find_element('//*[@id="profile-content"]/div/div[2]/div/div/main/section[5]/div[3]/ul/li[1]/div/div[2]/div[1]/div/span[2]/span[1]', By.XPATH).get_attribute('innerText')
+               
+            atualizar_planilha(nome, cargo, empresa, tempo)
+
             bot.back()
         except Exception as e:
             print(f"Erro ao clicar no resultado {i}: {e}")
