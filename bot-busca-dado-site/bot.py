@@ -2,7 +2,13 @@ from botcity.web import WebBot, Browser, By
 from seleniumbase import Driver
 from time import sleep
 import pandas as pd
+from dotenv import load_dotenv
 import os
+
+# Carrega as variáveis de ambiente
+load_dotenv()
+EMAIL = os.getenv('EMAIL')
+SENHA = os.getenv('PASSWORD')
 
 def process_data(directory: str, files: list, output_path: str):
     # Processa e mescla arquivos Excel em um único arquivo
@@ -49,8 +55,8 @@ def login_to_website(driver: Driver):
     # Login
     while True:
         try:
-            email_field = driver.find_element(By.CSS_SELECTOR, '#Email')
-            email_field.send_keys('ademar.castro.fh@gmail.com')
+            email_field = driver.find_element(By.ID, 'Email')
+            email_field.send_keys(EMAIL)
             break
         except Exception as e:
             print(f'Campo de usuário não encontrado: {e}')
@@ -58,8 +64,9 @@ def login_to_website(driver: Driver):
     
     while True:
         try:
-            password_field = driver.find_element(By.XPATH, '/html/body/main/div/div[1]/div/form/div[2]/input')
-            password_field.send_keys('qyiaXnRN9EfC3J!')
+            password_field = driver.find_element(By.ID, 'Password')
+            print(SENHA)
+            password_field.send_keys(SENHA)
             break
         except Exception as e:
             print(f"Campo de senha não encontrado: {e}")

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\adema\OneDrive\Área de Trabalho\DEVELOP\bot-busca-dado-site\temporario
+set VIRTUAL_ENV=C:\Users\adema\OneDrive\Área de Trabalho\DEVELOP\EQUIPE_LINUS_ZLACADEMY\bot-busca-dado-site\temporario
 
 if not defined PROMPT set PROMPT=$P$G
 
