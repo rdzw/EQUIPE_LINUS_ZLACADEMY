@@ -81,7 +81,7 @@ def update_excel(price, name):
         print("Nenhum dado numérico para plotar.")
 
 def main():
-    url = "https://www.amazon.com.br/dp/B00CLOZBHK/ref=fs_a_atv_5"  # Substitua pela URL da sua página
+    url = "https://www.amazon.com.br/dp/B00CLOZBHK/ref=fs_a_atv_5"
     soup = fetch_iframe_content(url)
     
     if not soup:
