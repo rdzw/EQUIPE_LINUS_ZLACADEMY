@@ -1,6 +1,7 @@
 from botcity.maestro import * 
 import pandas as pd
 import PyPDF2
+import re
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
@@ -20,6 +21,19 @@ def extract_pdf_data(pdf_path):
             
     return text
 
+def extract_table(text):
+
+    pattern = re.compile(r'(\d+)\s+([\w\s]+)\s+([\w\s,]+)\s+(\d+h)\s+R\$ (\d+\.\d{3},\d{2})')
+    matches = pattern.findall(text)
+    data = [list(match) for match in matches]
+
+    return data
+
+def save_to_excel(data, excel_path):
+    columns = ['Item', 'Segmento Artístico', 'Tipo', 'Duração', 'Valor']
+    df = pd.DataFrame(data, columns=columns)
+    df.to_excel(excel_path, index=False)
+
 def main():
     maestro = BotMaestroSDK.from_sys_args()
     execution = maestro.get_execution()
@@ -28,10 +42,14 @@ def main():
     print(f"Task Parameters are: {execution.parameters}")
 
     pdf_path = 'PDF\Credenciamento_003_Edital_009_2023_-_Circulacao.pdf'
+    excel_path = "tabela_extraida.xlsx"
 
     pdf_text = extract_pdf_data(pdf_path)
 
-    print(pdf_text)
+    table_data = extract_table(pdf_text)
+
+    excel_path = "tabela_extraida.xlsx"
+    save_to_excel(table_data, excel_path)
 
 def not_found(label):
     print(f"Element not found: {label}")
