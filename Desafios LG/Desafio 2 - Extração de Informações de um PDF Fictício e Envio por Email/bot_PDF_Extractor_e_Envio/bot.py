@@ -6,7 +6,6 @@ import PyPDF2
 import re
 import os
 
-# Carrega as variáveis de ambiente (email e senha)
 load_dotenv()
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASSWORD')
