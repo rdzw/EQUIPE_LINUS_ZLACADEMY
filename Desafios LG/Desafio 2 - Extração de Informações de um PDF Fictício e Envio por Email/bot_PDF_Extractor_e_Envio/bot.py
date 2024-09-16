@@ -1,7 +1,14 @@
 from botcity.maestro import * 
+from botcity.plugins.email import BotEmailPlugin
+from dotenv import load_dotenv
 import pandas as pd
 import PyPDF2
 import re
+import os
+
+load_dotenv()
+EMAIL = os.getenv('EMAIL')
+PASSWORD = os.getenv('PASSWORD')
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
@@ -26,12 +33,26 @@ def save_to_excel(data, excel_path):
     df = pd.DataFrame(data, columns=columns)
     df.to_excel(excel_path, index=False)
 
+def send_email(excel_path, email):
+    email.configure_smtp("imap.gmail.com", 587)
+    email.login(EMAIL, PASSWORD)
+
+    # Definindo os atributos que comporão a mensagem
+    para = ["<menezesandreina18@gmail.com>", "<rodrigoword2@gmail.com>"]
+    assunto = "Relatório de Extração"
+    corpo_email = "<h1>Olá!</h1> Segue em anexo excel contendo dados extraídos do pdf!"
+    arquivos = [excel_path]
+
+    email.send_message(assunto, corpo_email, para, attachments=arquivos, use_html=True)
+
 def main():
     maestro = BotMaestroSDK.from_sys_args()
     execution = maestro.get_execution()
 
     print(f"Task ID is: {execution.task_id}")
     print(f"Task Parameters are: {execution.parameters}")
+
+    email = BotEmailPlugin()
 
     pdf_path = 'PDF\Credenciamento_003_Edital_009_2023_-_Circulacao.pdf'
     excel_path = "tabela_extraida.xlsx"
@@ -42,6 +63,8 @@ def main():
 
     excel_path = "tabela_extraida.xlsx"
     save_to_excel(table_data, excel_path)
+
+    send_email(excel_path, email)
 
 def not_found(label):
     print(f"Element not found: {label}")
