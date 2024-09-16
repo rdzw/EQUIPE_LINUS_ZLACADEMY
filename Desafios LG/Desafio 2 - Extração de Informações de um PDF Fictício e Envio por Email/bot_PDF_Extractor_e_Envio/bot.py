@@ -8,17 +8,9 @@ BotMaestroSDK.RAISE_NOT_CONNECTED = False
 def extract_pdf_data(pdf_path):
     with open(pdf_path,'rb') as file:
         reader = PyPDF2.PdfReader(file)
-        num_pages = len(reader.pages)
-        text = ''
-
-        for page_num in range(num_pages):
-            page = reader.pages[page_num]
-            page_text = page.extract_text()
-            if page_text:
-                text += page_text
-            else:
-                print(f"Página {page_num + 1} está vazia ou não contém texto.")
-            
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() or ""         
     return text
 
 def extract_table(text):
