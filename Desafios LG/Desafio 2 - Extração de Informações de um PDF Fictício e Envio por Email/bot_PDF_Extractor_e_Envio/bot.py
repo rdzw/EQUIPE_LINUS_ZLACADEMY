@@ -37,7 +37,6 @@ def send_email(excel_path, email):
     assunto = "Relatório de Extração"
     corpo_email = "<h1>Olá!</h1> Segue em anexo excel contendo dados extraídos do PDF!"
     
-    # Envia o email com o arquivo em anexo
     email.send_message(assunto, corpo_email, para, attachments=[excel_path], use_html=True)
     print('Email enviado com sucesso!!')
 
