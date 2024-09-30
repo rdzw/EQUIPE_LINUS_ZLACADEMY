@@ -24,7 +24,7 @@ https://documentation.botcity.dev/tutorials/python-automations/web/
 
 # Import for the Web Bot
 from botcity.web import WebBot, Browser, By
-
+from webdriver_manager.chrome import ChromeDriverManager
 # Import for integration with BotCity Maestro SDK
 from botcity.maestro import *
 
@@ -52,6 +52,7 @@ def main():
 
     # Uncomment to set the WebDriver path
     # bot.driver_path = "<path to your WebDriver binary>"
+    bot.driver_path = ChromeDriverManager().install()
 
     # Opens the BotCity website.
     bot.browse("https://www.botcity.dev")
