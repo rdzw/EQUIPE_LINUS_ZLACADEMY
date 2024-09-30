@@ -1,0 +1,955 @@
+1724121354572	geckodriver	INFO	Listening on 127.0.0.1:52405
+1724121357642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilecIJmKJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724121358088	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724121358289	Marionette	INFO	Listening on port 52419
+Read port: 52419
+1724121358498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.botcity.dev/, line 22: ReferenceError: Weglot is not defined
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://www.botcity.dev/, line 311: SyntaxError: redeclaration of const containerEl
+JavaScript error: https://pt-br.botcity.dev/, line 23: ReferenceError: Weglot is not defined
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://pt-br.botcity.dev/, line 311: SyntaxError: redeclaration of const containerEl
+1724121369638	Marionette	INFO	Stopped listening on port 52419
+JavaScript warning: https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.a398bc31e.js, line 23: Script terminated by timeout at:
+r@https://cdn.prod.website-files.com/6487203eebdb29c0fff6af27/js/webflow.a398bc31e.js:23:377784
+
+Dynamically enable window occlusion 1
+1724122262364	geckodriver	INFO	Listening on 127.0.0.1:53437
+1724122265399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileZFhCij"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122265677	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122265824	Marionette	INFO	Listening on port 53451
+Read port: 53451
+1724122265937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724122295800	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_APPEND_NODE_FAILURE] topLevelTarget is null"
+console.error: "appendNode/<@resource://devtools/client/inspector/compatibility/actions/compatibility.js:58:26\nthunk/</</<@resource://devtools/client/shared/redux/middleware/thunk.js:17:11\n_onMarkupMutation@resource://devtools/client/inspector/compatibility/CompatibilityView.js:203:30\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onWalkerMutations/<@resource://devtools/client/inspector/markup/markup.js:1615:22\n"
+console.error: "[COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_FAILURE] Connection closed, pending request to server0.conn0.process3//compatibility231, type getNodeCssIssues failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getNodeIssues@resource://devtools/client/inspector/compatibility/actions/compatibility.js:248:55\n"
+console.error: "baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:105:23\ndestroy@resource://devtools/shared/protocol/Front.js:73:10\ndestroy@resource://devtools/shared/protocol/Pool.js:211:17\nbaseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:109:13\ndestroy@resource://devtools/shared/protocol/Front.js:73:10\ndestroy@resource://devtools/client/fronts/inspector.js:128:11\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:485:17\n"
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+Exiting due to channel error.
+1724122745232	geckodriver	INFO	Listening on 127.0.0.1:55791
+1724122748258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileUPW5DN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122748541	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122748712	Marionette	INFO	Listening on port 55812
+Read port: 55812
+1724122748839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724122752030	Marionette	INFO	Stopped listening on port 55812
+Dynamically enable window occlusion 1
+1724122776002	geckodriver	INFO	Listening on 127.0.0.1:55945
+1724122779065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileUWGtI7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122779360	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122779492	Marionette	INFO	Listening on port 55966
+Read port: 55966
+1724122779618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724122782947	Marionette	INFO	Stopped listening on port 55966
+Dynamically enable window occlusion 1
+1724122818993	geckodriver	INFO	Listening on 127.0.0.1:56113
+1724122822047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileiBBNcn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122822332	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122822463	Marionette	INFO	Listening on port 56135
+Read port: 56135
+1724122822583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724122853442	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724122922770	geckodriver	INFO	Listening on 127.0.0.1:56431
+1724122925803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileaz4uE8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122926100	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122926235	Marionette	INFO	Listening on port 56454
+Read port: 56454
+1724122926357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724122940231	Marionette	INFO	Stopped listening on port 56454
+Dynamically enable window occlusion 1
+1724122982946	geckodriver	INFO	Listening on 127.0.0.1:56665
+1724122985968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilemLAey1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724122986244	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724122986371	Marionette	INFO	Listening on port 56684
+Read port: 56684
+1724122986416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724123017977	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724123068908	geckodriver	INFO	Listening on 127.0.0.1:56969
+1724123071938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofile3kPbGL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724123072217	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724123072344	Marionette	INFO	Listening on port 56991
+Read port: 56991
+1724123072469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724123103144	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724123443908	geckodriver	INFO	Listening on 127.0.0.1:58731
+1724123446936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileKm53lj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724123447219	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724123447351	Marionette	INFO	Listening on port 58748
+Read port: 58748
+1724123447469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724123477240	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724123585957	geckodriver	INFO	Listening on 127.0.0.1:58968
+1724123589004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileMPUod3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724123589305	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724123589441	Marionette	INFO	Listening on port 58993
+Read port: 58993
+1724123589562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724123593264	Marionette	INFO	Stopped listening on port 58993
+Dynamically enable window occlusion 1
+1724123653789	geckodriver	INFO	Listening on 127.0.0.1:59272
+1724123656810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileQJADeC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724123657101	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724123657244	Marionette	INFO	Listening on port 59284
+Read port: 59284
+1724123657369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724123689247	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724124097410	geckodriver	INFO	Listening on 127.0.0.1:53782
+1724124100436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilerMLGID"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124100715	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124100844	Marionette	INFO	Listening on port 53793
+Read port: 53793
+1724124100969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724124130811	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+Exiting due to channel error.
+Exiting due to channel error.
+1724124366065	geckodriver	INFO	Listening on 127.0.0.1:54041
+1724124369095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileReXPj8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124369374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124369511	Marionette	INFO	Listening on port 54062
+Read port: 54062
+1724124369629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724124400546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724124557915	geckodriver	INFO	Listening on 127.0.0.1:54269
+1724124560946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileSknoIi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124561222	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124561361	Marionette	INFO	Listening on port 54281
+Read port: 54281
+1724124561482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f4c8cec1b7845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724124591600	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724124683510	geckodriver	INFO	Listening on 127.0.0.1:54432
+1724124686569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileuI7CyV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124686842	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124686973	Marionette	INFO	Listening on port 54447
+Read port: 54447
+1724124687018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f4f9e2ef37843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724124702104	Marionette	INFO	Stopped listening on port 54447
+Dynamically enable window occlusion 1
+1724124740949	geckodriver	INFO	Listening on 127.0.0.1:54543
+1724124743999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileTT7NhO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124744275	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124744404	Marionette	INFO	Listening on port 54554
+Read port: 54554
+1724124744449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f51066bfd7849&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724124774529	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+1724124855494	geckodriver	INFO	Listening on 127.0.0.1:54686
+1724124858533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilekxmfKk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724124858811	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724124858944	Marionette	INFO	Listening on port 54700
+Read port: 54700
+1724124859062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f53d27e1d784c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724124874084	Marionette	INFO	Stopped listening on port 54700
+Dynamically enable window occlusion 1
+1724125095756	geckodriver	INFO	Listening on 127.0.0.1:54937
+1724125098785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileQaltRU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125099059	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125099188	Marionette	INFO	Listening on port 54950
+Read port: 54950
+1724125099236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f59ada96e7845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724125114168	Marionette	INFO	Stopped listening on port 54950
+Dynamically enable window occlusion 1
+1724125139395	geckodriver	INFO	Listening on 127.0.0.1:55035
+1724125142420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileg0RpXB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125142705	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125142839	Marionette	INFO	Listening on port 55051
+Read port: 55051
+1724125142953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f5abf79cd7843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724125173452	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: "Unable to find target with innerWindowId:8589934593"
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f5dc6f9bc7846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error while calling actor 'domwalker's method 'getEmbedderElement'" "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode]"
+console.error: ({})
+console.warn: "Error while destroying front:" "inspector" (new Error("Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process6//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process6//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 382: Error: Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process6//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)
+Exiting due to channel error.
+Exiting due to channel error.
+1724125335551	geckodriver	INFO	Listening on 127.0.0.1:63688
+1724125338583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileeLF8uP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125338868	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125339005	Marionette	INFO	Listening on port 63704
+Read port: 63704
+1724125339125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f5f8e4b017849&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724125354928	Marionette	INFO	Stopped listening on port 63704
+Dynamically enable window occlusion 1
+1724125499166	geckodriver	INFO	Listening on 127.0.0.1:63855
+1724125502213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileSNKl3c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125502499	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125502632	Marionette	INFO	Listening on port 63871
+Read port: 63871
+1724125502750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f63868bc3784c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724125532684	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "CSSStyleRule is not defined"
+console.error: (new ReferenceError("CSSStyleRule is not defined", "resource://devtools/server/actors/inspector/css-logic.js", 611))
+console.error: (new Error("Protocol error (ReferenceError): CSSStyleRule is not defined from: server0.conn0.process5//pagestyle30 (resource://devtools/server/actors/inspector/css-logic.js:611:15)", "resource://devtools/shared/protocol/Front.js", 382))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.process5//customhighlighter64, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:370:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:553:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_showBoxModel@resource://devtools/client/inspector/markup/markup.js:781:40\n_onNewSelection@resource://devtools/client/inspector/markup/markup.js:1059:29\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nsetNodeFront@resource://devtools/client/framework/selection.js:203:10\nonDetached@resource://devtools/client/inspector/inspector.js:1681:20\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonTargetDestroyed@resource://devtools/client/framework/selection.js:161:12\n_onTargetDestroyed@resource://devtools/client/framework/toolbox.js:849:22\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/shared/commands/target/target-command.js:342:28\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/client/fronts/watcher.js:74:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:348:13\nonPacket@resource://devtools/client/devtools-client.js:458:13\nsend/<@resource://devtools/shared/transport/local-transport.js:67:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Unable to find target with innerWindowId:8589934593"
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f668c9dab7849&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.process6//inspectorActor56, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.process6//inspectorActor56, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 105: Error: Connection closed, pending request to server0.conn0.process6//inspectorActor56, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:299:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.process6//customhighlighter152, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:370:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:553:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_showBoxModel@resource://devtools/client/inspector/markup/markup.js:781:40\n_onNewSelection@resource://devtools/client/inspector/markup/markup.js:1059:29\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nsetNodeFront@resource://devtools/client/framework/selection.js:203:10\nonDetached@resource://devtools/client/inspector/inspector.js:1681:20\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonTargetDestroyed@resource://devtools/client/framework/selection.js:161:12\n_onTargetDestroyed@resource://devtools/client/framework/toolbox.js:849:22\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/shared/commands/target/target-command.js:342:28\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/client/fronts/watcher.js:74:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:348:13\nonPacket@resource://devtools/client/devtools-client.js:458:13\nsend/<@resource://devtools/shared/transport/local-transport.js:67:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Unable to find target with innerWindowId:8589934596"
+console.error: "Unable to find target with innerWindowId:8589934596"
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f699d1c0f784b&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error while calling actor 'domwalker's method 'getEmbedderElement'" "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode]"
+console.error: ({})
+console.warn: "Error while destroying front:" "inspector" (new Error("Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process7//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)", "resource://devtools/shared/protocol/Front.js", 382))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process7//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)", "resource://devtools/shared/protocol/Front.js", 382))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 382: Error: Protocol error (NS_ERROR_FAILURE): Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [inIDeepTreeWalker.currentNode] from: server0.conn0.process7//domwalker23 (resource://devtools/server/actors/inspector/document-walker.js:69:0)
+Exiting due to channel error.
+Exiting due to channel error.
+1724125861714	geckodriver	INFO	Listening on 127.0.0.1:64123
+1724125864743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileK2py1k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125865014	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125865143	Marionette	INFO	Listening on port 64140
+Read port: 64140
+1724125865237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1724125880231	Marionette	INFO	Stopped listening on port 64140
+Dynamically enable window occlusion 1
+1724125953194	geckodriver	INFO	Listening on 127.0.0.1:64288
+1724125956261	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileAJFbUu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724125956536	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724125956671	Marionette	INFO	Listening on port 64301
+Read port: 64301
+1724125956718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: Script terminated by timeout at:
+Lt@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:60555
+zn.prototype.insertAlertHtml@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:322977
+Yn.prototype.initializeAlartHtmlAndHandler@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:357540
+Zn.prototype.windowLoadBanner/</<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:365751
+u/t/</<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:1630
+u/t/<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:1735
+a/<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:673
+a@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:452
+Zn.prototype.windowLoadBanner@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:364777
+r@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:50770
+It.prototype.trigger@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:50922
+po.prototype.loadBanner@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:122195
+nr.prototype.LoadBanner@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:367126
+@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:386127
+u/t/</<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:1630
+u/t/<@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:1735
+o@https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js:7:506
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f6e9bb8ba784f&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724125986590	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724126030551	geckodriver	INFO	Listening on 127.0.0.1:64420
+1724126033570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileXO6CX4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126033852	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126033981	Marionette	INFO	Listening on port 64432
+Read port: 64432
+1724126034100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f7086bcc17845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724126050001	Marionette	INFO	Stopped listening on port 64432
+Dynamically enable window occlusion 1
+1724126090527	geckodriver	INFO	Listening on 127.0.0.1:64530
+1724126093563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileoyJnAP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126093846	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126093973	Marionette	INFO	Listening on port 64543
+Read port: 64543
+1724126094089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f71ffeef7784f&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724126125699	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+1724126201367	geckodriver	INFO	Listening on 127.0.0.1:64679
+1724126204397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofile1d3zOc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126204673	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126204803	Marionette	INFO	Listening on port 64694
+Read port: 64694
+1724126204922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+1724126209868	Marionette	INFO	Stopped listening on port 64694
+Dynamically enable window occlusion 1
+1724126260450	geckodriver	INFO	Listening on 127.0.0.1:64787
+1724126263493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilenGJcLj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126263816	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126263955	Marionette	INFO	Listening on port 64804
+Read port: 64804
+1724126264075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f761df966784b&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724126293832	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724126390304	geckodriver	INFO	Listening on 127.0.0.1:64993
+1724126393345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilem3bpCv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126393618	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126393750	Marionette	INFO	Listening on port 65004
+Read port: 65004
+1724126393796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+1724126399854	Marionette	INFO	Stopped listening on port 65004
+Dynamically enable window occlusion 1
+1724126767916	geckodriver	INFO	Listening on 127.0.0.1:65344
+1724126770978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofile2wULif"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126771254	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126771384	Marionette	INFO	Listening on port 65373
+Read port: 65373
+1724126771505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f82846e527845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724126802077	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724126860998	geckodriver	INFO	Listening on 127.0.0.1:65491
+1724126864031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileM7cbDA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724126864308	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724126864435	Marionette	INFO	Listening on port 65503
+Read port: 65503
+1724126864481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+1724126869613	Marionette	INFO	Stopped listening on port 65503
+Dynamically enable window occlusion 1
+1724127109824	geckodriver	INFO	Listening on 127.0.0.1:49306
+1724127112881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileivhsdb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724127113160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724127113295	Marionette	INFO	Listening on port 49320
+Read port: 49320
+1724127113412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f8add2a227845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724127145237	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f8de2be1c7843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:314:10
+
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.process6//customhighlighter125, type show failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nshow@resource://devtools/client/fronts/highlighters.js:31:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:591:23\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.process6//customhighlighter125, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_beforeShowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:370:22\nshowHighlighterTypeForNode@resource://devtools/client/inspector/shared/highlighters-overlay.js:553:26\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_showBoxModel@resource://devtools/client/inspector/markup/markup.js:781:40\n_onNewSelection@resource://devtools/client/inspector/markup/markup.js:1059:29\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nsetNodeFront@resource://devtools/client/framework/selection.js:203:10\nonDetached@resource://devtools/client/inspector/inspector.js:1681:20\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonTargetDestroyed@resource://devtools/client/framework/selection.js:161:12\n_onTargetDestroyed@resource://devtools/client/framework/toolbox.js:849:22\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/shared/commands/target/target-command.js:342:28\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onTargetDestroyed@resource://devtools/client/fronts/watcher.js:74:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nonPacket@resource://devtools/shared/protocol/Front.js:348:13\nonPacket@resource://devtools/client/devtools-client.js:458:13\nsend/<@resource://devtools/shared/transport/local-transport.js:67:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: (new Error("Connection closed, pending request to server0.conn0.process6//domnode128, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetNodeFrontSelectorsFromTopDocument@resource://devtools/shared/commands/inspector/inspector-command.js:342:42\nupdateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1479:8\nonNewSelection@resource://devtools/client/inspector/inspector.js:1553:10\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nsetNodeFront@resource://devtools/client/framework/selection.js:203:10\nonDetached@resource://devtools/client/inspector/inspector.js:1681:20\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onMutations@resource://devtools/client/framework/selection.js:104:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\ngetMutations@resource://devtools/client/fronts/walker.js:314:10\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: (new Error("Connection closed, pending request to server0.conn0.process6//pagestyle30, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\nonNewSelection@resource://devtools/client/inspector/boxmodel/box-model.js:288:10\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\nsetNodeFront@resource://devtools/client/framework/selection.js:203:10\nonDetached@resource://devtools/client/inspector/inspector.js:1681:20\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\n_onMutations@resource://devtools/client/framework/selection.js:104:12\n_emit@resource://devtools/shared/event-emitter.js:242:32\nemit@resource://devtools/shared/event-emitter.js:186:18\nemit@resource://devtools/shared/event-emitter.js:330:18\ngetMutations@resource://devtools/client/fronts/walker.js:314:10\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Unable to find target with innerWindowId:8589934596"
+console.error: "Unable to find target with innerWindowId:8589934596"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.process7//inspectorActor34, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 105))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.process7//inspectorActor34, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\n_getWalker@resource://devtools/client/fronts/inspector.js:84:30\ninitialize@resource://devtools/client/fronts/inspector.js:73:12\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 105: Error: Connection closed, pending request to server0.conn0.process7//inspectorActor34, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:299:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+_getWalker@resource://devtools/client/fronts/inspector.js:84:30
+initialize@resource://devtools/client/fronts/inspector.js:73:12
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f90f50be3784b&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724127436163	geckodriver	INFO	Listening on 127.0.0.1:55789
+1724127439215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileABJqaO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724127439487	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724127439616	Marionette	INFO	Listening on port 55803
+Read port: 55803
+1724127439713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f92d2be5f784c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724127471643	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724127556615	geckodriver	INFO	Listening on 127.0.0.1:55932
+1724127559684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileapU4HW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724127559952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724127560083	Marionette	INFO	Listening on port 55944
+Read port: 55944
+1724127560187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724127565123	Marionette	INFO	Stopped listening on port 55944
+Dynamically enable window occlusion 1
+1724127596787	geckodriver	INFO	Listening on 127.0.0.1:56014
+1724127599837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilerlYqs9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724127600117	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724127600247	Marionette	INFO	Listening on port 56027
+Read port: 56027
+1724127600362	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f96bc2f057846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f973f7b8e7846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724127630569	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f97b1cb097846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f9858f9487846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f9bad5eab784c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5f9e5138967843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724128360672	geckodriver	INFO	Listening on 127.0.0.1:56772
+1724128363682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileNWyXfy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724128363960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724128364094	Marionette	INFO	Listening on port 56788
+Read port: 56788
+1724128364211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ukwest.onetrust.com/scripttemplates/6.19.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fa965c8d87845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fa9aa0edc7845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724128395436	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724128833586	geckodriver	INFO	Listening on 127.0.0.1:64790
+1724128836635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileGJafcP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724128836921	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724128837049	Marionette	INFO	Listening on port 64805
+Read port: 64805
+1724128837166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1724128855935	Marionette	INFO	Stopped listening on port 64805
+Dynamically enable window occlusion 1
+1724128919510	geckodriver	INFO	Listening on 127.0.0.1:64901
+1724128922555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileOqo1Jt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724128922839	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724128922968	Marionette	INFO	Listening on port 64912
+Read port: 64912
+1724128923082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fb71a2ae4784b&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724128952973	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fba1d9aaf7845&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fbd2e4d797843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1724129300036	geckodriver	INFO	Listening on 127.0.0.1:65269
+1724129303087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofileIV2uKY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724129303360	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724129303488	Marionette	INFO	Listening on port 65283
+Read port: 65283
+1724129303537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+1724129309823	Marionette	INFO	Stopped listening on port 65283
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto, line 1: Script terminated by timeout at:
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:112906
+eV@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113844
+f1@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:39610
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113478
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113817
+eV@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113844
+f1@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:39588
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113478
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113817
+eV@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113844
+f1@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:39588
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113478
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113817
+eV@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113844
+f1@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:39588
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113478
+eV/<@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113817
+eV@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:113844
+cXcIy@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:72250
+@https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc056cbd3784f&lang=auto:1:74313
+
+Dynamically enable window occlusion 1
+1724129632609	geckodriver	INFO	Listening on 127.0.0.1:52586
+1724129635646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\rodrigo\\AppData\\Local\\Temp\\rust_mozprofilenNnCd9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724129635924	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724129636051	Marionette	INFO	Listening on port 52598
+Read port: 52598
+1724129636096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fc87749ae7846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1724129665941	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fcb7afda8784b&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fce8cef00784c&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fd1b64ab9784f&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fd50c8b46784f&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fd8610d7d7846&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8b5fdbacbb427843&lang=auto, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11646
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+1724130441003	Marionette	INFO	Stopped listening on port 52598
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
