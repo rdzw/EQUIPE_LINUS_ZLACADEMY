@@ -19,14 +19,14 @@ def main():
     print(f"Task ID is: {execution.task_id}")
     print(f"Task Parameters are: {execution.parameters}")
 
-    '''bot = WebBot()
+    bot = WebBot()
     bot.headless = False
     bot.browser = Browser.CHROME
     bot.driver_path = ChromeDriverManager().install()
     bot.maximize_window()
     bot.browse("https://www.botcity.dev")
     bot.wait(3000)
-    bot.stop_browser()'''
+    bot.stop_browser()
 
     print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
     arq_anexo = 'pdf\\banner.png'
