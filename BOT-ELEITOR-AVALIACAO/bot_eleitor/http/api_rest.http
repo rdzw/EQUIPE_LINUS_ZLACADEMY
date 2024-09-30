@@ -1,0 +1,69 @@
+// ---------------------------------------------
+// Testar todos os serviços da API para eleitor
+// ---------------------------------------------
+
+
+// Inserir eleitor
+POST http://127.0.0.1:5000/eleitor
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+{
+    "cpf": "12345678901",
+    "nome": "João da Silva",
+    "data_nascimento": "01/01/1980",
+    "nome_mae": "Maria da Silva",
+    "cep": "69000000",
+    "nro_endereco": "123",
+    "nro_titulo": "12345678901234",
+    "situacao": "Regular",
+    "secao": "0012",
+    "zona": "0005",
+    "local_votacao": "Escola Estadual X",
+    "endereco_votacao": "Rua ABC, 123",
+    "bairro": "Centro",
+    "municipio_uf": "Manaus/AM",
+    "pais": "Brasil"
+}
+###
+
+// Alterar dados do eleitor pelo CPF
+PUT http://127.0.0.1:5000/eleitor
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+{
+    "cpf": "12345678901",
+    "nome": "João da Silva Santos",
+    "data_nascimento": "01/01/1980",
+    "nome_mae": "Maria da Silva",
+    "cep": "69000000",
+    "nro_endereco": "123",
+    "nro_titulo": "12345678901234",
+    "situacao": "Regular",
+    "secao": "0012",
+    "zona": "0005",
+    "local_votacao": "Escola Estadual Y",
+    "endereco_votacao": "Rua ABC, 123",
+    "bairro": "Centro",
+    "municipio_uf": "Manaus/AM",
+    "pais": "Brasil"
+}
+###
+
+
+// Listar todos os eleitores em ordem alfabética do nome
+GET http://127.0.0.1:5000/eleitor
+Content-Type: application/json
+###
+
+
+// Obter eleitor pelo CPF
+GET http://127.0.0.1:5000/eleitor/12345678901
+Content-Type: application/json
+###
+
+
+// Deletar eleitor pelo CPF
+DELETE http://127.0.0.1:5000/eleitor/12345678901
+Content-Type: application/json
