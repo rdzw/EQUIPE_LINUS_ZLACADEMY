@@ -1,0 +1,136 @@
+// ---------------------------------------------
+// Testar todos os servico da api para usuario
+// ---------------------------------------------
+
+
+// Inserir usuario
+POST http://127.0.0.1:5000/usuario
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+    "nome": "Ademar Alves Castro Filho",
+    "login": "castro",
+    "senha": "12345678",
+    "email": "2022002444@ifam.edu.br"
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Alterar usuario
+PUT http://127.0.0.1:5000/usuario
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+    "id": 6,
+    "nome": "Maria Pereira Goncalves",
+    "login": "maria",
+    "senha": "777",
+    "email": "msria@gmail.com"
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Listar todos os usuários em ordem alfabética do nome
+GET http://127.0.0.1:5000/usuario
+Content-Type: application/json
+###
+
+
+// Obter usuário pelo ID
+//GET http://127.0.0.1:5000/usuario/id
+GET http://127.0.0.1:5000/usuario/6
+Content-Type: application/json
+###
+
+
+// Deletar usuário pelo ID
+// http://127.0.0.1:5000/usuario/id
+DELETE http://127.0.0.1:5000/usuario/1
+Content-Type: application/json
+###
+
+
+// ---------------------------------------------
+// Testar todos os servico da api para produtos
+// ---------------------------------------------
+
+
+// Incluir produto
+POST http://127.0.0.1:5000/produto
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+  "descricao" : "Farinha",
+  "unidade"   : "Kg",
+  "quantidade" : 3,
+  "preco_real" : 7.60,
+  "preco_dolar": 35.0
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Alterar produto pelo id
+PUT http://127.0.0.1:5000/produto
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+  "id": 2,
+  "descricao" : "Carne",
+  "unidade" : "Kg",
+  "quantidade" : 1,
+  "preco_real" : 30.50,
+  "preco_dolar": 150.0
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Alterar o preco dolar do produto pelo id
+PUT http://127.0.0.1:5000/produto/preco_dolar
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+  "id": 1,
+  "preco_dolar": 350.0
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+###
+// Listar todos os produtos em ordem alfabética pela descricao
+GET http://127.0.0.1:5000/produto
+Content-Type: application/json
+###
+
+
+// Obter produto pelo ID
+// http://127.0.0.1:5000/produto/id
+GET http://127.0.0.1:5000/produto/1
+Content-Type: application/json
+###
+
+
+// Deletar produto pelo ID
+// http://127.0.0.1:5000/produto/id
+DELETE http://127.0.0.1:5000/produto/2
+Content-Type: application/json
+###
