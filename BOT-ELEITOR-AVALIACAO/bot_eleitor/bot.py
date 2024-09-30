@@ -44,5 +44,5 @@ def main():
 def not_found(label):
     print(f"Element not found: {label}")
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     main()
