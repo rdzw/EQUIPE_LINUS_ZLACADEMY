@@ -2,7 +2,6 @@
 // Testar todos os serviços da API para eleitor
 // ---------------------------------------------
 
-
 // Inserir eleitor
 POST http://127.0.0.1:5000/eleitor
 Content-Type: application/json
@@ -68,3 +67,69 @@ Content-Type: application/json
 // Deletar eleitor pelo CPF
 DELETE http://127.0.0.1:5000/eleitor/12345678901
 Content-Type: application/json
+###
+
+// ---------------------------------------------
+// Testar todos os servico da api para usuario
+// ---------------------------------------------
+
+// Inserir usuario
+POST http://127.0.0.1:5000/usuario
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+    "nome": "Benevaldo",
+    "login": "benevaldo",
+    "senha": "123456",
+    "email": "benevaldo.goncalves@ifam.edu.br"
+}
+// Selecione o "//" depois aperte em CTRL + D para selecionar os travessões restantes, depois clique em DELETE
+//{
+//    "nome": "Ademar",
+//    "login": "ademar",
+//    "senha": "123456",
+//    "email": "ademar.castro@icomp.ufam.edu.br"
+//}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Alterar usuario
+PUT http://127.0.0.1:5000/usuario
+Content-Type: application/json
+// OBS: É necessário pular uma linha, quando existir um corpo (body)
+
+
+{
+    "id": 1,
+    "nome": "Benevaldo Goncalves",
+    "login": "benevaldo",
+    "senha": "123456",
+    "email": "benevaldo.goncalves@ifam.edu.br"
+}
+// Utiliza-se obrigatoriamente no início da linha os simbolos: ###
+// para separar uma requisção da outra.
+###
+
+
+// Listar todos os usuários em ordem alfabética do nome
+GET http://127.0.0.1:5000/usuario
+Content-Type: application/json
+###
+
+
+// Obter usuário pelo ID
+//GET http://127.0.0.1:5000/usuario/id
+GET http://127.0.0.1:5000/usuario/6
+Content-Type: application/json
+###
+
+
+// Deletar usuário pelo ID
+// http://127.0.0.1:5000/usuario/id
+DELETE http://127.0.0.1:5000/usuario/1
+Content-Type: application/json
+###
