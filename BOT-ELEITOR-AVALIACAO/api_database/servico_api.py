@@ -1,19 +1,14 @@
 # Importações
 from flask import Flask, make_response, jsonify, request, Response
-from repository import eleitor
+from repository import eleitor, usuario
 
 # Instanciar
 app_api = Flask('api_database')
 app_api.config['JSON_SORT_KEYS'] = False
 
 # --------------------------------------------------------
-#           Inicio: Serviços da api usuário
+#           Inicio: Serviços da api eleitor
 # --------------------------------------------------------
-
-from flask import Flask, jsonify, request, make_response
-from repository import eleitor  # Importando o módulo eleitor
-
-app_api = Flask(__name__)
 
 # Criar um novo eleitor
 @app_api.route('/eleitor', methods=['POST'])
@@ -76,6 +71,143 @@ def deletar_eleitor(cpf):
     return make_response(jsonify(status=sucesso, mensagem=mensagem))
 # Fim: deletar_eleitor()
 
-# -- Fim: Serviços da api produto ------------------------
+# -- Fim: Serviços da api eleitor ------------------------
+
+
+# --------------------------------------------------------
+#           Inicio: Serviços da api usuário
+# --------------------------------------------------------
+
+
+# Inserir usuário
+@app_api.route('/usuario', methods=['POST'])
+def criar_usuario():
+    # Construir um Request
+    # Captura o JSON com os dados enviado pelo cliente
+    usuario_json = request.json # corpo da requisição
+    id_usuario=0
+    try:
+        id_usuario = usuario.criar_usuario(usuario_json)
+        sucesso = True
+        _mensagem = 'Usuario inserido com sucesso'
+    except Exception as ex:
+        sucesso = False
+        _mensagem = f'Erro: Inclusao do usuario: {ex}'
+   
+    return make_response(
+        # Formata a resposta no formato JSON
+        jsonify(
+                status = sucesso,
+                mensagem = _mensagem ,
+                id = id_usuario
+        )
+    )
+# Fim: criar_usuario()
+
+
+# Atualizar usuário
+@app_api.route('/usuario', methods=['PUT'])
+def atualizar_usuario():
+    # Construir um Request
+    # Captura o JSON com os dados enviado pelo cliente
+    usuario_json = request.json # corpo da requisição
+    id = int(usuario_json['id'])
+    try:
+        if usuario.existe_usuario(id) == True:
+            usuario.atualizar_usuario(usuario_json)
+            sucesso = True
+            _mensagem = 'Usuario alterado com sucesso'
+        else:
+            sucesso = False
+            _mensagem = 'Usuario nao existe'
+    except Exception as ex:
+        sucesso = False
+        _mensagem = f'Erro: Alteracao do usuario: {ex}'
+   
+    return make_response(
+        # Formata a resposta no formato JSON
+        jsonify(
+                status = sucesso,
+                mensagem = _mensagem
+        )
+    )
+
+
+# Deletar usuário
+@app_api.route('/usuario/<int:id>', methods=['DELETE'])
+def deletar_usuario(id):
+    try:
+        if usuario.existe_usuario(id) == True:
+            usuario.deletar_usuario(id)
+            sucesso = True
+            _mensagem = 'Usuario deletado com sucesso'
+        else:
+            sucesso = False
+            _mensagem = 'Usuario nao existe'
+    except Exception as ex:
+        sucesso = False
+        _mensagem = f'Erro: Exclusao de usuario: {ex}'
+   
+    return make_response(
+        # Formata a resposta no formato JSON
+        jsonify(
+                status = sucesso,
+                mensagem = _mensagem
+        )
+    )
+
+
+# Serviço: Obter usuário pelo id
+@app_api.route('/usuario/<int:id>', methods=['GET'])
+def obter_usuario_id(id):
+    # Declarando uma tupla vazia
+    usuario_id = ()
+    sucesso = False
+    if usuario.existe_usuario(id) == True:
+        usuario_id = usuario.obter_usuario_id(id)
+        sucesso = True
+        _mensagem = 'Usuario encontrado com sucesso'
+    else:
+        sucesso = False
+        _mensagem = 'Usuario existe'
+    # Construir um Response
+    return make_response(
+        # Formata a resposta no formato JSON
+        jsonify(
+                status = sucesso,
+                mensagem = _mensagem,
+                dados = usuario_id
+        )
+    )
+# Fim: obter_usuario_id(id)
+
+
+# Serviço: Obter a lista de usuário
+@app_api.route('/usuario', methods=['GET'])
+def lista_usuarios():
+    lista_usuario = list()
+    lista_usuario = usuario.lista_usuarios()
+    if len(lista_usuario) == 0:
+        sucesso = False
+        _mensagem = 'Lista de usuario vazia'
+    else:
+        sucesso = True
+        _mensagem = 'Lista de usuario'
+
+
+    # Construir um Response
+    return make_response(
+        # Formata a resposta no formato JSON
+        jsonify(
+                status = sucesso,
+                mensagem = _mensagem,
+                dados = lista_usuario
+        )
+    )
+# Fim: lista_usuarios()
+
+
+# -- Fim: Serviços da api usuário ------------------------
+
 # Levantar/Executar API REST: api_database
 app_api.run()
