@@ -2,7 +2,6 @@ from botcity.web import WebBot, Browser, By
 from botcity.maestro import *
 from webdriver_manager.chrome import ChromeDriverManager
 from botcity.plugins.http import BotHttpPlugin
-from datetime import datetime
 
 import requests
 
@@ -35,7 +34,15 @@ def acessar_site(bot):
     df = planilha.ler_excel(excel_path, sheet) 
 
     for index, row in df.iterrows():
-        cpf = row['CPF']
+        cpf = str(row['CPF'])
+        if len(cpf) < 11:
+            cpf = cpf.zfill(11)  # Preenche com zero à esquerda até 11 dígitos
+
+        # Verifica se o CPF ainda não está com 11 dígitos após a correção
+        if len(cpf) != 11:
+            print(f"O CPF {cpf} ainda não tem 11 dígitos após correção. CPF inválido.")
+            continue  # Pula para o próximo CPF, se necessário
+
         data_nascimento = row['DATA_NASCIMENTO']
         nome = row['NOME']
         nome_mae = row['NOME_MAE']
@@ -44,23 +51,22 @@ def acessar_site(bot):
 
         data_convertida = data_nascimento.strftime('%d/%m/%Y')
 
+        bot.wait(1000)
         bot.find_element('//*[@id="content"]/app-root/div/app-atendimento-eleitor/div[1]/app-menu-option[10]/button', By.XPATH).click()
 
-        while len(bot.find_elements('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-auth/div/div/div/div/div[2]/div[2]/form/div[1]/div[1]/input', By.XPATH))<1:
-            bot.wait(1000)
-            print('carrengado.')
+        bot.wait(1000)
 
         bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-auth/div/div/div/div/div[2]/div[2]/form/div[1]/div[1]/input', By.XPATH).click()
-        bot.paste(str(cpf))
-        bot.wait(100)
+        bot.paste(cpf)
+        bot.wait(1000)
 
         bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-auth/div/div/div/div/div[2]/div[2]/form/div[1]/div[2]/input', By.XPATH).click()
         bot.paste(str(data_convertida))
-        bot.wait(100)
+        bot.wait(1000)
 
         bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-auth/div/div/div/div/div[2]/div[2]/form/div[1]/div[3]/div/input', By.XPATH).click()
         bot.paste(nome_mae)
-        bot.wait(100)
+        bot.wait(1000)
 
         bot.find_element('//*[@id="modal"]/div/div/div[2]/div[2]/form/div[2]/button[2]', By.XPATH).click()
         bot.wait(1000)
@@ -84,7 +90,16 @@ def acessar_site(bot):
         print(f"Bairro: {bairro}")
         print(f"Município: {municipio}")
         print(f"País: {pais}")
-        #bot.wait(100000000)
+
+        bot.wait(1000)
+        bot.print_pdf(f'pdf\{cpf}_titulo.pdf')
+        bot.wait(1000)
+
+        bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/div/app-consultar-numero-titulo-eleitor/app-avatar-e-nome/div/div/button', By.XPATH).click()
+        bot.wait(1000)
+        bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-mensagem/div/div/div/div[2]/button', By.XPATH).click()
+        bot.wait(1000)
+        bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/div/app-home/div/div[4]/app-botao-principal[1]/button', By.XPATH).click()
 
 
 def main():
