@@ -10,6 +10,17 @@ import planilha.planilha as planilha
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
+# Acessa a api dos correios e busca o endereço completo do eleitor com base no CEP
+# def api_cep_eleitor():
+
+#     http=BotHttpPlugin('http://127.0.0.1:5000/eleitor')
+#     eleitores =  http.get_as_json()
+
+#     print(f'Eleitores: {eleitores}')
+
+#     for eleitor in eleitores['dados']:
+#         print(f'Nome do eleitor: {eleitor["nome"]}')
+
 def api_lista_usuarios():
     http=BotHttpPlugin('http://127.0.0.1:5000/usuario')
     return http.get_as_json()
@@ -115,6 +126,7 @@ def main():
     bot.browser = Browser.CHROME
     bot.driver_path = ChromeDriverManager().install()
 
+    # api_cep_eleitor()
     acessar_site(bot)
 
     bot.wait(3000)

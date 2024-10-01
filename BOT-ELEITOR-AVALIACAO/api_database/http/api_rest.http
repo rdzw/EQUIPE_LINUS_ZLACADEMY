@@ -8,12 +8,12 @@ Content-Type: application/json
 // OBS: É necessário pular uma linha, quando existir um corpo (body)
 
 {
-    "cpf": "12345678901",
-    "nome": "João da Silva",
-    "data_nascimento": "01/01/1980",
+    "cpf": "02535087211",
+    "nome": "Ademar Alves Castro Filho",
+    "data_nascimento": "23/06/1999",
     "nome_mae": "Maria da Silva",
-    "cep": "69000000",
-    "nro_endereco": "123",
+    "cep": "69036110",
+    "nro_endereco": "1111",
     "nro_titulo": "12345678901234",
     "situacao": "Regular",
     "secao": "0012",
