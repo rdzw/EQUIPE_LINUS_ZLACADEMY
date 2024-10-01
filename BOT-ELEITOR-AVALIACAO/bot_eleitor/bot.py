@@ -5,12 +5,26 @@ from botcity.plugins.http import BotHttpPlugin
 import requests
 
 import e_mail.e_mail as e_mail
+import planilha.planilha as planilha
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
 def api_lista_usuarios():
     http=BotHttpPlugin('http://127.0.0.1:5000/usuario')
     return http.get_as_json()
+
+def acessar_site(bot):
+    bot.browse('https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor?id=1727788956071')
+    bot.maximize_window()
+
+    bot.scroll_down(clicks=4)
+                    
+    while len(bot.find_elements('//*[@id="content"]/app-root/div/app-atendimento-eleitor/div[1]/app-menu-option[10]/button', By.XPATH))<1:
+        bot.wait(1000)
+        print('carrengado.')
+
+    bot.find_element('//*[@id="content"]/app-root/div/app-atendimento-eleitor/div[1]/app-menu-option[10]/button', By.XPATH).click()
+    bot.wait(1000)
 
 def main():
     maestro = BotMaestroSDK.from_sys_args()
@@ -20,17 +34,22 @@ def main():
     print(f"Task Parameters are: {execution.parameters}")
 
     bot = WebBot()
+
     bot.headless = False
+
     bot.browser = Browser.CHROME
+
     bot.driver_path = ChromeDriverManager().install()
-    bot.maximize_window()
-    bot.browse("https://www.botcity.dev")
+
+    acessar_site(bot)
+
     bot.wait(3000)
+
     bot.stop_browser()
     
     
 
-    print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
+    '''print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
     arq_anexo = 'pdf\\banner.png'
     retornoJSON_usuarios = api_lista_usuarios()
     lista_produto = retornoJSON_usuarios['dados']
@@ -39,12 +58,12 @@ def main():
         print(f'Enviando e-mail para: {destinatario}')
         assunto = "Lista de Produtos"
         conteudo = "<h1>Sistema Automatizado!</h1> Em anexo, a lista de produtos."
-        e_mail.enviar_email(destinatario, assunto, conteudo,arq_anexo)    
+        e_mail.enviar_email(destinatario, assunto, conteudo,arq_anexo) 
     
-    print('Fim do processamento...')
+    print('Fim do processamento...')'''
 
 def not_found(label):
     print(f"Element not found: {label}")
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
