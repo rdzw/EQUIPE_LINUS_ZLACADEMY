@@ -63,8 +63,28 @@ def acessar_site(bot):
         bot.wait(100)
 
         bot.find_element('//*[@id="modal"]/div/div/div[2]/div[2]/form/div[2]/button[2]', By.XPATH).click()
-    
-        bot.wait(100000000)
+        bot.wait(1000)
+
+        numero_titulo = bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/div[1]/p[1]/b', By.XPATH).text
+        situacao = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/div[1]/p[2]/span', By.XPATH).text
+        secao = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[2]/div[1]/span[2]', By.XPATH).text
+        zona = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[2]/div[3]/span[2]', By.XPATH).text
+        local = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[1]/div[1]/span[2]', By.XPATH).text
+        endereco = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[1]/div[2]/span[2]', By.XPATH).text
+        bairro = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[1]/div[4]/span[2]', By.XPATH).text
+        municipio = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[1]/div[3]/span[2]', By.XPATH).text
+        pais = bot.find_element('//*[@id="content"]/app-root/div/app-consultar-numero-titulo-eleitor/div[1]/app-box-local-votacao/div/div/div[2]/div[2]/span[2]', By.XPATH).text
+
+        print(f"Número do Título: {numero_titulo}")
+        print(f"Situação: {situacao}")
+        print(f"Seção: {secao}")
+        print(f"Zona: {zona}")
+        print(f"Local: {local}")
+        print(f"Endereço: {endereco}")
+        print(f"Bairro: {bairro}")
+        print(f"Município: {municipio}")
+        print(f"País: {pais}")
+        #bot.wait(100000000)
 
 
 def main():
