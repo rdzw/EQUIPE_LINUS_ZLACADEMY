@@ -27,6 +27,8 @@ def main():
     bot.browse("https://www.botcity.dev")
     bot.wait(3000)
     bot.stop_browser()
+    
+    
 
     print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
     arq_anexo = 'pdf\\banner.png'
