@@ -1,6 +1,7 @@
 import os
+import glob
 
-diretorio = r'C:\Users\noturno\Downloads\EQUIPE_LINUS_ZLACADEMY\BOT-ELEITOR-AVALIACAO\bot_eleitor\pdf'
+diretorio = r'BOT-ELEITOR-AVALIACAO\bot_eleitor\pdf'
 
 def listar_arquivos(diretorio):
     """Lista todos os arquivos em um diretório."""
@@ -25,16 +26,19 @@ def renomear_arquivo(diretorio, arquivo_antigo, novo_nome):
         print(f'Arquivo "{arquivo_antigo}" renomeado para "{novo_nome}".')
     except FileNotFoundError:
         print(f'Arquivo "{arquivo_antigo}" não encontrado.')
-
-def apagar_arquivos(diretorio, lista_arquivos):
-    """Apaga arquivos especificados em uma lista de um determinado diretório."""
-    for arquivo in lista_arquivos:
-        caminho_completo = os.path.join(diretorio, arquivo)
-        if os.path.exists(caminho_completo) and input(f'Tem certeza que deseja apagar {arquivo}? (s/n): ').lower() == 's':
-            os.remove(caminho_completo)
-            print(f'Arquivo {arquivo} apagado com sucesso.')
-        else:
-            print(f'Arquivo {arquivo} não encontrado ou não foi apagado.')
+    
+def apagar_arquivos(caminho_diretorio, padrao):
+    # Cria o caminho completo com o padrão
+    caminho_completo = os.path.join(caminho_diretorio, padrao)
+    # Encontra todos os arquivos que correspondem ao padrão
+    arquivos = glob.glob(caminho_completo)
+    # Apaga cada arquivo encontrado
+    for arquivo in arquivos:
+        try:
+            os.remove(arquivo)
+            print(f'Arquivo {arquivo} excluído com sucesso.')
+        except Exception as e:
+            print(f'Erro ao excluir {arquivo}: {e}')
 
 # Execução
 print("Arquivos disponíveis:", listar_arquivos(diretorio))
