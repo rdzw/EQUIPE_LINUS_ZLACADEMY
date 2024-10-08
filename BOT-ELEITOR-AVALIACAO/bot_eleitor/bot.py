@@ -7,10 +7,11 @@ import requests
 
 import e_mail.e_mail as e_mail
 import planilha.planilha as planilha
+import so.so as so
 
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
-def api_lista_usuarios():
+'''def api_lista_usuarios():
     http=BotHttpPlugin('http://127.0.0.1:5000/usuario')
     return http.get_as_json()
 
@@ -172,7 +173,7 @@ def fechar_modal(bot):
     bot.wait(1000)
     bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/app-modal-mensagem/div/div/div/div[2]/button', By.XPATH).click()
     bot.wait(1000)
-    bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/div/app-home/div/div[4]/app-botao-principal[1]/button', By.XPATH).click()
+    bot.find_element('/html/body/main/div/div/div[3]/div/div/app-root/div/app-home/div/div[4]/app-botao-principal[1]/button', By.XPATH).click()'''
 
 def main():
     maestro = BotMaestroSDK.from_sys_args()
@@ -186,11 +187,14 @@ def main():
     bot.browser = Browser.CHROME
     bot.driver_path = ChromeDriverManager().install()
 
-    acessar_site(bot)
+    #acessar_site(bot)
 
     bot.wait(3000)
     bot.stop_browser()
+
+    pdf = 'pdf'
     
+    so.apagar_arquivos_pdf(pdf)
     
     '''print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
     arq_anexo = 'pdf\\banner.png'
