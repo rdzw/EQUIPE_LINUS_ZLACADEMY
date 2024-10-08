@@ -1,3 +1,12 @@
+###
+# EQUIPE LINUS
+#
+# Ademar Alves Castro Filho
+# Jade
+# Natália
+# Rodrigo
+###
+
 from botcity.web import WebBot, Browser, By
 from botcity.maestro import *
 from webdriver_manager.chrome import ChromeDriverManager
@@ -8,25 +17,115 @@ import requests
 import e_mail.e_mail as e_mail
 import planilha.planilha as planilha
 
+from pdf import pdf
+
+from so import so
+
 BotMaestroSDK.RAISE_NOT_CONNECTED = False
 
-# Acessa a api dos correios e busca o endereço completo do eleitor com base no CEP
-# def api_cep_eleitor():
+# Acessa a API dos Correios (ViaCEP) e busca o endereço completo do eleitor com base no CEP
+def api_cep_eleitor():
+    try:
+        # Obtenha todos os eleitores gravados no banco de dados
+        http = BotHttpPlugin('http://127.0.0.1:5000/eleitor')
+        eleitores = http.get_as_json()
 
-#     http=BotHttpPlugin('http://127.0.0.1:5000/eleitor')
-#     eleitores =  http.get_as_json()
+        # Lista de pdfs
+        lista_pdf = []
 
-#     print(f'Eleitores: {eleitores}')
+        # Verificar se há dados retornados
+        if 'dados' in eleitores:
+            for eleitor in eleitores['dados']:
+                cep = eleitor["cep"]
+                print(f'Buscando endereço para o CEP: {cep}')
 
-#     for eleitor in eleitores['dados']:
-#         print(f'Nome do eleitor: {eleitor["nome"]}')
+                try:
+                    # Chamada para a API ViaCEP para obter o endereço a partir do CEP
+                    response = requests.get(f'https://viacep.com.br/ws/{cep}/json/')
+                    response.raise_for_status()  # Levanta exceção para códigos de status 4xx/5xx
+
+                    endereco = response.json()
+
+                    # Verificar se o CEP é válido
+                    if 'erro' not in endereco:
+                        print(f"Nome do eleitor: {eleitor['nome']}")
+                        print(f"Endereço completo: {endereco}")
+
+                        pdf.criar_pdf_dados_eleitor(eleitor["cpf"], endereco)
+
+                        lista_pdf.append(f'C:\\Users\\matutino\\Documents\\EQUIPE_LINUS_ZLACADEMY\\BOT-ELEITOR-AVALIACAO\\bot_eleitor\\pdf\\{eleitor["cpf"]}_eleitor.pdf')
+                        lista_pdf.append(f'C:\\Users\\matutino\\Documents\\EQUIPE_LINUS_ZLACADEMY\\BOT-ELEITOR-AVALIACAO\\bot_eleitor\\pdf\\{eleitor["cpf"]}_titulo.pdf')
+                        pdf.merge_pdfs(lista_pdf, f'C:\\Users\\matutino\\Documents\\EQUIPE_LINUS_ZLACADEMY\\BOT-ELEITOR-AVALIACAO\\bot_eleitor\\pdf\\{eleitor["cpf"]}.pdf')
+
+                    else:
+                        print(f"CEP {cep} inválido ou não encontrado.")
+                except requests.exceptions.RequestException as e:
+                    # Captura qualquer erro durante a requisição HTTP
+                    print(f"Erro ao acessar a API ViaCEP para o CEP {cep}: {e}")
+                except ValueError as e:
+                    # Captura erros ao processar a resposta JSON
+                    print(f"Erro ao processar a resposta da API ViaCEP para o CEP {cep}: {e}")
+            
+                print('Gerando arquivo Produtos.pdf com o merge entre os arquivos: ListaProduto.pdf + SiteProduto.pdf...')
+                lista_pdf = []
+                lista_pdf.append('C:\\Users\\matutino\\Desktop\\LG\\botproduto\\pdf\\ListaProduto.pdf')
+                lista_pdf.append('C:\\Users\\matutino\\Desktop\\LG\\botproduto\\pdf\\SiteProduto.pdf')
+                pdf.merge_pdfs(lista_pdf,'C:\\Users\\matutino\\Desktop\\LG\\botproduto\\pdf\\Produtos.pdf')
+        else:
+            print("Nenhum eleitor encontrado ou dados malformados.")
+    
+    except Exception as e:
+        # Captura exceções gerais durante a obtenção dos eleitores
+        print(f"Erro ao obter eleitores: {e}")
 
 def api_lista_usuarios():
     http=BotHttpPlugin('http://127.0.0.1:5000/usuario')
     return http.get_as_json()
 
+
+def inserir_eleitor(linha_excel, nr_titulo, situacao, secao, zona, local_votacao, endereco_votacao, bairro, municipio_uf, pais):
+    # Valida se as chaves esperadas estão no dicionário
+    if all(key in linha_excel for key in ['CPF', 'NOME', 'DATA_NASCIMENTO', 'NOME_MAE', 'CEP', 'NRO_ENDERECO']):
+        try:
+            url = 'http://127.0.0.1:5000/eleitor'
+            headers = {'Content-Type': 'application/json'}
+
+            # Cria o dicionário eleitor_JSON com os dados do eleitor
+            eleitor_JSON = {
+                "cpf": linha_excel["CPF"],
+                "nome": linha_excel["NOME"],
+                "data_nascimento": linha_excel["DATA_NASCIMENTO"],
+                "nome_mae": linha_excel["NOME_MAE"],
+                "cep": linha_excel["CEP"],
+                "nro_endereco": linha_excel["NRO_ENDERECO"],
+                "nro_titulo": nr_titulo,
+                "situacao": situacao,
+                "secao": secao,
+                "zona": zona,
+                "local_votacao": local_votacao,
+                "endereco_votacao": endereco_votacao,
+                "bairro": bairro,
+                "municipio_uf": municipio_uf,
+                "pais": pais
+            }
+
+            # Faz a requisição POST
+            resposta = requests.post(url=url, headers=headers, json=eleitor_JSON)
+            resposta.raise_for_status()  # Verifica se houve algum erro na requisição
+            
+            # Retorna a resposta em formato JSON
+            retorno = resposta.json()
+            return retorno
+        
+        except requests.exceptions.HTTPError as err:
+            print(f"Erro HTTP: {err}")
+        except Exception as e:
+            print(f"Erro: {e}")
+    else:
+        print("Linha do Excel não contém todas as informações necessárias.")
+
 def acessar_site(bot):
-    bot.browse('https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor?id=1727788956071')
+    bot.browse('https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor')
     bot.maximize_window()
     
      # Aceitar o cookie
@@ -54,14 +153,43 @@ def acessar_site(bot):
         # Extração dos dados
         data_nascimento = row['DATA_NASCIMENTO']
         nome_mae = row['NOME_MAE']
+        nome = row['NOME']
+        cep = str(row['CEP'])
+        nro_endereco = str(row['NRO_ENDERECO'])
+        
         data_convertida = data_nascimento.strftime('%d/%m/%Y')
 
         # Preencher e submeter o formulário
         preencher_formulario(bot, cpf, data_convertida, nome_mae)
 
         # Extração de informações
-        numero_titulo, situacao, secao, zona, local, endereco, bairro, municipio, pais = extrair_informacoes(bot)
+        nr_titulo, situacao, secao, zona, local, endereco, bairro, municipio, pais = extrair_informacoes(bot)
+        
+        linha_excel = {
+            "CPF": cpf,
+            "NOME": nome,
+            "DATA_NASCIMENTO": data_convertida,
+            "NOME_MAE": nome_mae,
+            "CEP": cep,
+            "NRO_ENDERECO": nro_endereco,
+        }
 
+
+        retorno = inserir_eleitor(
+        linha_excel,
+        nr_titulo,
+        situacao,
+        secao,
+        zona,
+        local,  # O que for necessário aqui deve ser definido corretamente
+        endereco,  # O que for necessário aqui deve ser definido corretamente
+        bairro,
+        municipio,
+        pais
+    )
+
+        # Exibe o retorno da API
+        print(retorno)
         # Salvar o PDF
         salvar_pdf(bot, cpf)
 
@@ -126,14 +254,15 @@ def main():
     bot.browser = Browser.CHROME
     bot.driver_path = ChromeDriverManager().install()
 
-    # api_cep_eleitor()
+
+    api_cep_eleitor()
     acessar_site(bot)
 
     bot.wait(3000)
     bot.stop_browser()
     
     
-    '''print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
+    print('Enviando E-mail para a lista de usuario com arquivo Produtos.pdf em anexo.')
     arq_anexo = 'pdf\\banner.png'
     retornoJSON_usuarios = api_lista_usuarios()
     lista_produto = retornoJSON_usuarios['dados']
@@ -142,9 +271,9 @@ def main():
         print(f'Enviando e-mail para: {destinatario}')
         assunto = "Lista de Produtos"
         conteudo = "<h1>Sistema Automatizado!</h1> Em anexo, a lista de produtos."
-        e_mail.enviar_email(destinatario, assunto, conteudo,arq_anexo) 
+        e_mail.enviar_email(destinatario, assunto, conteudo, arq_anexo)
     
-    print('Fim do processamento...')'''
+    print('Fim do processamento...')
 
 def not_found(label):
     print(f"Element not found: {label}")
