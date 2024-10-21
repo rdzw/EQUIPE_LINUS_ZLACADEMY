@@ -1,0 +1,934 @@
+1719450539752	geckodriver	INFO	Listening on 127.0.0.1:50976
+1719450542900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilesAOB67"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719450543499	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719450543942	Marionette	INFO	Listening on port 50989
+Read port: 50989
+1719450544169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719450573547	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719451053903	Marionette	INFO	Stopped listening on port 50989
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileMEHy2p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719450580673	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719450580793	Marionette	INFO	Listening on port 51055
+Read port: 51055
+1719450580978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719450610709	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Exiting due to channel error.
+1719451870525	geckodriver	INFO	Listening on 127.0.0.1:51632
+1719451873663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileljOnPG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719451874219	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719451874592	Marionette	INFO	Listening on port 51643
+Read port: 51643
+1719451874776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719451904246	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719452089133	Marionette	INFO	Stopped listening on port 51643
+Dynamically enable window occlusion 1
+1719452096130	geckodriver	INFO	Listening on 127.0.0.1:51770
+1719452099265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilepesEFG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452099832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452100238	Marionette	INFO	Listening on port 51781
+Read port: 51781
+1719452100423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452114245	Marionette	INFO	Stopped listening on port 51781
+Dynamically enable window occlusion 1
+1719452266668	geckodriver	INFO	Listening on 127.0.0.1:51871
+1719452269807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilexrZWSi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452270218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452270575	Marionette	INFO	Listening on port 51882
+Read port: 51882
+1719452270774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452300250	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719452486231	Marionette	INFO	Stopped listening on port 51882
+Dynamically enable window occlusion 1
+1719452488780	geckodriver	INFO	Listening on 127.0.0.1:51965
+1719452491889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilerZZQkb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452492312	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452492648	Marionette	INFO	Listening on port 51976
+Read port: 51976
+1719452492812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452496212	Marionette	INFO	Stopped listening on port 51976
+Dynamically enable window occlusion 1
+1719452585760	geckodriver	INFO	Listening on 127.0.0.1:52045
+1719452588910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilegc3S9T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452589300	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452589647	Marionette	INFO	Listening on port 52057
+Read port: 52057
+1719452589806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452596516	Marionette	INFO	Stopped listening on port 52057
+Dynamically enable window occlusion 1
+1719452798999	geckodriver	INFO	Listening on 127.0.0.1:52135
+1719452802130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileJzfXHL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452802547	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452802883	Marionette	INFO	Listening on port 52146
+Read port: 52146
+1719452803053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452832599	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719453523832	Marionette	INFO	Stopped listening on port 52146
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilephIQPM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452865961	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452866089	Marionette	INFO	Listening on port 52213
+Read port: 52213
+1719452866288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719452895995	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719453524870	Marionette	INFO	Stopped listening on port 52213
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilewtijSi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719452989910	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719452990056	Marionette	INFO	Listening on port 52315
+Read port: 52315
+1719452990210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719453019946	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719453418902	Marionette	INFO	Stopped listening on port 52315
+Dynamically enable window occlusion 1
+1719453429534	geckodriver	INFO	Listening on 127.0.0.1:52477
+1719453432629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilebKfvuT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719453433089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719453433215	Marionette	INFO	Listening on port 52488
+Read port: 52488
+1719453433373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719453453060	Marionette	INFO	Stopped listening on port 52488
+Dynamically enable window occlusion 1
+1719453536992	geckodriver	INFO	Listening on 127.0.0.1:52550
+1719453540070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileXGwvr9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719453540524	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719453540869	Marionette	INFO	Listening on port 52561
+Read port: 52561
+1719453541037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719453570558	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719453987844	Marionette	INFO	Stopped listening on port 52561
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileYDsiVD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719453662107	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719453662260	Marionette	INFO	Listening on port 52648
+Read port: 52648
+1719453662427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719453682296	Marionette	INFO	Stopped listening on port 52648
+Dynamically enable window occlusion 1
+1719453763350	geckodriver	INFO	Listening on 127.0.0.1:52716
+1719453766415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileToSltZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719453766868	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719453767015	Marionette	INFO	Listening on port 52727
+Read port: 52727
+1719453767247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719453796906	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1719453987323	Marionette	INFO	Stopped listening on port 52727
+Dynamically enable window occlusion 1
+1719454055867	geckodriver	INFO	Listening on 127.0.0.1:52831
+1719454058988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileHZSg2C"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454059413	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454059750	Marionette	INFO	Listening on port 52842
+Read port: 52842
+1719454059914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719454089448	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1719454861084	Marionette	INFO	Stopped listening on port 52842
+Dynamically enable window occlusion 1
+onsole.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454312012	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454312138	Marionette	INFO	Listening on port 52918
+Read port: 52918
+1719454312319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719454321668	Marionette	INFO	Stopped listening on port 52918
+Dynamically enable window occlusion 1
+1719454352111	geckodriver	INFO	Listening on 127.0.0.1:52971
+1719454355200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileZOMP3Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454355511	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454355648	Marionette	INFO	Listening on port 52982
+Read port: 52982
+1719454355825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1719454365871	Marionette	INFO	Stopped listening on port 52982
+Dynamically enable window occlusion 1
+1719454546584	geckodriver	INFO	Listening on 127.0.0.1:53047
+1719454549691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileSTnByn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454549995	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454550113	Marionette	INFO	Listening on port 53057
+Read port: 53057
+1719454550298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719454580036	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719454869218	Marionette	INFO	Stopped listening on port 53057
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileoNsM4B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454747301	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454747422	Marionette	INFO	Listening on port 53158
+Read port: 53158
+1719454747617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719454777334	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719454862724	Marionette	INFO	Stopped listening on port 53158
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileMXtGYd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454832090	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454832220	Marionette	INFO	Listening on port 53229
+Read port: 53229
+1719454832435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719454862118	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719454863768	Marionette	INFO	Stopped listening on port 53229
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:912:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:817:38
+
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/windows-default-browser-agent getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1719454873206	geckodriver	INFO	Listening on 127.0.0.1:53284
+1719454876338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilea1XDaA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719454876892	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719454877232	Marionette	INFO	Listening on port 53297
+Read port: 53297
+1719454877387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719454906922	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719455608247	Marionette	INFO	Stopped listening on port 53297
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilee0Yv9p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719455250830	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719455250943	Marionette	INFO	Listening on port 53398
+Read port: 53398
+1719455251137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719455280857	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1719457098216	Marionette	INFO	Stopped listening on port 53398
+Dynamically enable window occlusion 1
+te enabled
+Dynamically enable window occlusion 0
+1719456336692	Marionette	INFO	Listening on port 53557
+Read port: 53557
+1719456336851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719456366395	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719456440785	Marionette	INFO	Stopped listening on port 53557
+Dynamically enable window occlusion 1
+1719456442818	geckodriver	INFO	Listening on 127.0.0.1:53618
+1719456445918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileIUxtzt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719456446397	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719456446733	Marionette	INFO	Listening on port 53630
+Read port: 53630
+1719456446896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719456476422	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719457091743	Marionette	INFO	Stopped listening on port 53630
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilei08fjw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719456525107	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719456525242	Marionette	INFO	Listening on port 53708
+Read port: 53708
+1719456525409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719456555139	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719457088586	FirefoxAccounts	ERROR	FxA rejecting with error NO_ACCOUNT, details: undefined
+1719457101012	Marionette	INFO	Stopped listening on port 53708
+Dynamically enable window occlusion 1
+1719927380173	geckodriver	INFO	Listening on 127.0.0.1:64193
+1719927383312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilesqnvFi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719927383944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719927384488	Marionette	INFO	Listening on port 64207
+Read port: 64207
+1719927384791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719927413977	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1719928304153	geckodriver	INFO	Listening on 127.0.0.1:64715
+1719928307296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileB70jgl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719928307911	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719928308381	Marionette	INFO	Listening on port 64726
+Read port: 64726
+1719928308585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719928332388	Marionette	INFO	Stopped listening on port 64726
+Dynamically enable window occlusion 1
+1719928407369	geckodriver	INFO	Listening on 127.0.0.1:64790
+1719928410424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilegQnYIV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719928411137	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719928411527	Marionette	INFO	Listening on port 64801
+Read port: 64801
+1719928411675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719928441158	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1719930070152	Marionette	INFO	Stopped listening on port 64801
+Dynamically enable window occlusion 1
+te enabled
+Dynamically enable window occlusion 0
+1719928565913	Marionette	INFO	Listening on port 64900
+Read port: 64900
+1719928566152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719928590067	Marionette	INFO	Stopped listening on port 64900
+Dynamically enable window occlusion 1
+1719928878705	geckodriver	INFO	Listening on 127.0.0.1:65098
+1719928881860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilewunStv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719928882300	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719928882432	Marionette	INFO	Listening on port 65108
+Read port: 65108
+1719928882621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719928912330	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1719930071031	Marionette	INFO	Stopped listening on port 65108
+Dynamically enable window occlusion 1
+1719930091246	geckodriver	INFO	Listening on 127.0.0.1:49216
+1719930094417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile2XHT1x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719930094968	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719930095334	Marionette	INFO	Listening on port 49231
+Read port: 49231
+1719930095524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719930108834	Marionette	INFO	Stopped listening on port 49231
+Dynamically enable window occlusion 1
+1719930159015	geckodriver	INFO	Listening on 127.0.0.1:49292
+1719930162134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile1IjQjh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719930162543	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719930162897	Marionette	INFO	Listening on port 49303
+Read port: 49303
+1719930163071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719930176143	Marionette	INFO	Stopped listening on port 49303
+Dynamically enable window occlusion 1
+1719930352602	geckodriver	INFO	Listening on 127.0.0.1:49389
+1719930355779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileF2JppT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719930356218	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719930356623	Marionette	INFO	Listening on port 49400
+Read port: 49400
+1719930356808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719930371951	Marionette	INFO	Stopped listening on port 49400
+Dynamically enable window occlusion 1
+1719930455820	geckodriver	INFO	Listening on 127.0.0.1:49457
+1719930458942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilesJOTtB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719930459374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719930459774	Marionette	INFO	Listening on port 49467
+Read port: 49467
+1719930459956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719930486723	Marionette	INFO	Stopped listening on port 49467
+Dynamically enable window occlusion 1
+1719930836202	geckodriver	INFO	Listening on 127.0.0.1:49782
+1719930839297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile1v6eoK"
+1719930923478	geckodriver	INFO	Listening on 127.0.0.1:49889
+1719930926637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileMD1yIv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719930927053	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719930927181	Marionette	INFO	Listening on port 49902
+Read port: 49902
+1719930927382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719930953358	Marionette	INFO	Stopped listening on port 49902
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Exiting due to channel error.
+1719931041653	geckodriver	INFO	Listening on 127.0.0.1:50004
+1719931044783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileITzNMV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719931045617	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719931046702	Marionette	INFO	Listening on port 50015
+Read port: 50015
+1719931046898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719931075662	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+19931520561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile0U3mNk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719931521037	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719931521169	Marionette	INFO	Listening on port 50394
+Read port: 50394
+1719931521379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719931551082	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1719931745598	geckodriver	INFO	Listening on 127.0.0.1:50584
+1719931748762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileQIyJBa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719931749223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719931749359	Marionette	INFO	Listening on port 50597
+Read port: 50597
+1719931749560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719931779260	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719931782050	Marionette	INFO	Stopped listening on port 50597
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/search-config-icons Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:912:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:817:38
+
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/search-config-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1719931832456	geckodriver	INFO	Listening on 127.0.0.1:50667
+1719931835572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile16P5hd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719931836049	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719931836194	Marionette	INFO	Listening on port 50678
+Read port: 50678
+1719931836447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719931866117	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719931867451	Marionette	INFO	Stopped listening on port 50678
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/ml-onnx-runtime getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1719931904985	geckodriver	INFO	Listening on 127.0.0.1:50745
+1719931908057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileDXIxD1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719931908377	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719931908492	Marionette	INFO	Listening on port 50756
+Read port: 50756
+1719931908677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719931938401	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719931939733	Marionette	INFO	Stopped listening on port 50756
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/devtools-compatibility-browsers getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1719932027939	geckodriver	INFO	Listening on 127.0.0.1:50830
+1719932031034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileLefpbe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719932031380	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719932031513	Marionette	INFO	Listening on port 50841
+Read port: 50841
+1719932031721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719932061400	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719932063145	Marionette	INFO	Stopped listening on port 50841
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/addons-manager-settings list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/cfr getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1719932160516	geckodriver	INFO	Listening on 127.0.0.1:50935
+1719932163622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilePXV7kh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719932163948	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719932164071	Marionette	INFO	Listening on port 50949
+Read port: 50949
+1719932164260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719932193977	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719932198508	Marionette	INFO	Stopped listening on port 50949
+Dynamically enable window occlusion 1
+1719933469968	geckodriver	INFO	Listening on 127.0.0.1:51444
+1719933473157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilez8cxNH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719933473644	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719933473778	Marionette	INFO	Listening on port 51456
+Read port: 51456
+1719933473994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719933503667	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719933508143	Marionette	INFO	Stopped listening on port 51456
+Dynamically enable window occlusion 1
+1719933659568	geckodriver	INFO	Listening on 127.0.0.1:51550
+1719933662747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileOPUvqt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719933663064	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719933663178	Marionette	INFO	Listening on port 51562
+Read port: 51562
+1719933663372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719933693104	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719933697533	Marionette	INFO	Stopped listening on port 51562
+Dynamically enable window occlusion 1
+1719933705457	geckodriver	INFO	Listening on 127.0.0.1:51624
+1719933708593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilecNaTSM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719933709006	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719933709128	Marionette	INFO	Listening on port 51638
+Read port: 51638
+1719933709312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719933739049	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719933742977	Marionette	INFO	Stopped listening on port 51638
+Dynamically enable window occlusion 1
+1719934009068	geckodriver	INFO	Listening on 127.0.0.1:51750
+1719934012199	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileiXqhLK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719934012663	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719934012780	Marionette	INFO	Listening on port 51761
+Read port: 51761
+1719934012974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719934042689	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719934046921	Marionette	INFO	Stopped listening on port 51761
+Dynamically enable window occlusion 1
+1719934698968	geckodriver	INFO	Listening on 127.0.0.1:52053
+1719934702111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileJdOOu2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719934702861	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719934703011	Marionette	INFO	Listening on port 52065
+Read port: 52065
+1719934703232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719934732910	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719934737852	Marionette	INFO	Stopped listening on port 52065
+Dynamically enable window occlusion 1
+1719934765602	geckodriver	INFO	Listening on 127.0.0.1:52127
+1719934768715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile61y5DB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719934769058	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719934769182	Marionette	INFO	Listening on port 52137
+Read port: 52137
+1719934769382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719934799096	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719934803608	Marionette	INFO	Stopped listening on port 52137
+Dynamically enable window occlusion 1
+1719934853964	geckodriver	INFO	Listening on 127.0.0.1:52211
+1719934857065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileLvAduH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719934857386	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719934857501	Marionette	INFO	Listening on port 52222
+Read port: 52222
+1719934857686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719934887426	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719934891271	Marionette	INFO	Stopped listening on port 52222
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:912:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:817:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1719934985993	geckodriver	INFO	Listening on 127.0.0.1:52321
+1719934989162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileNZBNQC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719934989601	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719934989721	Marionette	INFO	Listening on port 52332
+Read port: 52332
+1719934989903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935019636	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+1719935055246	geckodriver	INFO	Listening on 127.0.0.1:52405
+1719935058313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile0o5yb5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719935058649	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719935058765	Marionette	INFO	Listening on port 52418
+Read port: 52418
+1719935059002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935088675	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1719935092591	Marionette	INFO	Stopped listening on port 52418
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:912:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:817:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1719935272227	geckodriver	INFO	Listening on 127.0.0.1:52570
+1719935275344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofiletARwip"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719935275774	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719935275891	Marionette	INFO	Listening on port 52581
+Read port: 52581
+1719935276087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935305814	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935455143	geckodriver	INFO	Listening on 127.0.0.1:52681
+1719935458244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilePpcMkl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719935458741	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719935458877	Marionette	INFO	Listening on port 52694
+Read port: 52694
+1719935459075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935488768	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935624093	geckodriver	INFO	Listening on 127.0.0.1:52789
+1719935627165	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofile3XJ2V7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719935627617	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719935627743	Marionette	INFO	Listening on port 52800
+Read port: 52800
+1719935627936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935657629	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+am Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilex124lf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719935832581	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719935832706	Marionette	INFO	Listening on port 52927
+Read port: 52927
+1719935832907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719935862618	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Listening on 127.0.0.1:53407
+1719936759725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileubhM7s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719936760239	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719936760406	Marionette	INFO	Listening on port 53422
+Read port: 53422
+1719936760635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719936790261	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719937201921	geckodriver	INFO	Listening on 127.0.0.1:53653
+1719937204995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilewTK78r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719937205503	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719937205653	Marionette	INFO	Listening on port 53667
+Read port: 53667
+1719937205863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719937235557	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileA4pdO6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719937597787	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719937597912	Marionette	INFO	Listening on port 53917
+Read port: 53917
+1719937598095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1719937650491	geckodriver	INFO	Listening on 127.0.0.1:53975
+1719937653558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileKQaYKe"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719937654116	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719937654225	Marionette	INFO	Listening on port 53987
+Read port: 53987
+1719937654479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1719937663203	Marionette	INFO	Stopped listening on port 53987
+Dynamically enable window occlusion 1
+1719937705685	geckodriver	INFO	Listening on 127.0.0.1:54048
+1719937708845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileUHvxUC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719937709164	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719937709276	Marionette	INFO	Listening on port 54059
+Read port: 54059
+1719937709462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719937732410	Marionette	INFO	Stopped listening on port 54059
+Dynamically enable window occlusion 1
+1719937836463	geckodriver	INFO	Listening on 127.0.0.1:54175
+1719937839545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileGXEtyn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719937839921	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719937840064	Marionette	INFO	Listening on port 54187
+Read port: 54187
+1719937840282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719937869972	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Listening on 127.0.0.1:54336
+1719938103071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofilentXQwH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1719938103515	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1719938103639	Marionette	INFO	Listening on port 54350
+Read port: 54350
+1719938103883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719938133546	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1719938346598	Marionette	INFO	Stopped listening on port 54350
+Dynamically enable window occlusion 1
+1720392372990	geckodriver	INFO	Listening on 127.0.0.1:59601
+1720392376101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileJsPtTH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720392377107	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720392377362	Marionette	INFO	Listening on port 59618
+Read port: 59618
+1720392377734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1720392407148	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+Exiting due to channel error.
+Exiting due to channel error.
+20392951347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\menez\\AppData\\Local\\Temp\\rust_mozprofileAgYH8M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720392952152	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720392952434	Marionette	INFO	Listening on port 59926
+Read port: 59926
+1720392952723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1720392982188	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uibank.uipath.com."
+1720393066314	Marionette	INFO	Stopped listening on port 59926
+Dynamically enable window occlusion 1

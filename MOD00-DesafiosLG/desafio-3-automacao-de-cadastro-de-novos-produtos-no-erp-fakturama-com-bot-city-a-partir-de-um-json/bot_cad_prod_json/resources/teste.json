@@ -1,0 +1,33 @@
+{
+    "load": {
+        "customer": "BOTTEST",
+        "products": [
+            {
+                "item_number": "0000000000001",
+                "name": "PRODUCT DEMO 1",
+                "category": "ELECTRONICS",
+                "gtin": "0000000000123",
+                "supplier_code": "SUPPLIER1",
+                "description": "PRODUCT DEMO 1",
+                "price": "100.00",
+                "cost": "50.00",
+                "allowance": "0.00",
+                "vat": "Free of Tax",
+                "stock": "100"
+            },
+            {
+                "item_number": "0000000000002",
+                "name": "PRODUCT DEMO 2",
+                "category": "ELECTRONICS",
+                "gtin": "0000000000124",
+                "supplier_code": "SUPPLIER1",
+                "description": "PRODUCT DEMO 2",
+                "price": "94.90",
+                "cost": "47.50",
+                "allowance": "1.90",
+                "vat": "Free of Tax",
+                "stock": "143"
+            }
+        ]
+    }
+}
